@@ -4,13 +4,13 @@ import React from 'react'
 import Icon from './components/Icon'
 import { proptypes } from './components/propTypes'
 
-const ProfileIcon = ({ ...props }) => {
+const IconProfile = ({ ...props }) => {
   return (
     <Icon id="hpa-profile" {...props} />
   )
 }
-ProfileIcon.propTypes = {
+IconProfile.propTypes = {
   ...proptypes
 }
 
-export default ProfileIcon
+export default IconProfile
