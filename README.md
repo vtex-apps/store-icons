@@ -37,6 +37,70 @@ To use any icon of this project follow the steps below:
     )
     ```
 
+## Concepts
+
+### Types
+
+#### High Priority Actions
+ArrowToBottom
+ArromFromBottom
+Profile
+Save
+Delete
+Play
+Search
+Cart
+Calendar
+
+#### Mild Priority Actions
+Columns
+Bars
+Minus (-outline -solid -line)
+Store
+Eyesight (--on --off -solid -outline)
+Bag
+Angle (--up --down)
+Exchange
+Gallery
+Export
+CreditCard
+Elypsis
+Arrows
+Settings
+Edit (-outline -solid)
+Clone (outline -solid)
+Cog
+Link
+Filter (-outline -solid)
+ExternalLink (-outline -solid)
+SingleItem
+List
+Plus (-outline -solid -plus)
+
+#### Informational
+Tooltip (-outline -solid)
+Warning (-outline -solid)
+Help (-outline -solid)
+
+#### Navigation
+Angle (--down --up --left --rigt)
+Arrow (--right --left)
+
+#### Status Indicators
+Close (-solid -outline)
+Clock
+Discount
+Check (-solid -outline -line)
+
+### Styles
+#### Solid
+#### Outline
+#### Line
+
+### Modifiers
+#### Orientation
+#### State
+
 ## Testing
 
 To test your code you should run on your workspace:
