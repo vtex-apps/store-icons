@@ -11,5 +11,4 @@ const IconMenu = ({ ...props }) => {
 
 IconMenu.propTypes = proptypes
 
-
 export default IconMenu
