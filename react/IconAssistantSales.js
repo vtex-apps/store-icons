@@ -8,8 +8,7 @@ const IconAssistantSales = ({ ...props }) => {
     <Icon id="hpa-telemarketing" {...props} />
   )
 }
-IconAssistantSales.propTypes = {
-  ...proptypes
-}
+
+IconAssistantSales.propTypes = proptypes
 
 export default IconAssistantSales

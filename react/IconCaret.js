@@ -10,6 +10,7 @@ const IconCaret = ({ orientation, ...props }) => {
     <Icon id={getOptionTitle(orientation)} {...props} />
   )
 }
+
 IconCaret.propTypes = {
   /** Defines caret orientation */
   orientation: PropTypes.string.isRequired,

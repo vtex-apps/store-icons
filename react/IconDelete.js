@@ -8,8 +8,7 @@ const IconDelete = ({ ...props }) => {
     <Icon id="hpa-delete" {...props} />
   )
 }
-IconDelete.propTypes = {
-  ...proptypes
-}
+
+IconDelete.propTypes = proptypes
 
 export default IconDelete

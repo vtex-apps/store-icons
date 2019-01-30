@@ -8,8 +8,7 @@ const IconEyeSightOn = ({ ...props }) => {
     <Icon id="mpa-s-eyesight--on" {...props} />
   )
 }
-IconEyeSightOn.propTypes = {
-  ...proptypes
-}
+
+IconEyeSightOn.propTypes = proptypes
 
 export default IconEyeSightOn

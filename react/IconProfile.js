@@ -8,8 +8,7 @@ const IconProfile = ({ ...props }) => {
     <Icon id="hpa-profile" {...props} />
   )
 }
-IconProfile.propTypes = {
-  ...proptypes
-}
+
+IconProfile.propTypes = proptypes
 
 export default IconProfile
