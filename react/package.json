@@ -1,0 +1,12 @@
+{
+  "name": "vtex.dreamstore-icons",
+  "version": "0.0.0",
+  "description": "React components that encapsules dreamstore icons",
+  "files": [
+    "react"
+  ],
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0"
+  }
+}
