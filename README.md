@@ -41,11 +41,10 @@ To use any icon of this project follow the steps below:
 
 ### Icons API
 Any icon can receive the following props:
-
-size: Desired size (default is 16).
-isActive: Whaever the icon is active
-activeClassName: The className it should have if active
-mutedClassName: The className it should have if not active
+- **size**: Desired size (default is 16).
+- **isActive**: Whaever the icon is active
+- **activeClassName**: The className it should have if active
+- **mutedClassName**: The className it should have if not active
 
 #### Modifiers
 
@@ -67,25 +66,36 @@ mutedClassName: The className it should have if not active
 ### List of Icons
 
 #### High Priority Actions
-- [IconArrowBack](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconArrowBack.js)
-- [IconAssistantSales](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconAssistantSales.js)
-- [IconProfile](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconProfile.js)
-- [IconCart](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconCart.js)
-- [IconSearch](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconSearch.js)
-- [IconDelete](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconDelete.js)
-- [IconMenu](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconMenu.js)
+| Component | Types | Orientation | State 
+| :---:     |:---:  | :---:       | :---:      
+| [IconArrowBack](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconArrowBack.js) | x | x | x 
+| [IconAssistantSales](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconAssistantSales.js) | x | x | x 
+| [IconProfile](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconProfile.js) | x | x | x 
+| [IconCart](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconCart.js) | x | x | x 
+| [IconSearch](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconSearch.js) | x | x | x 
+| [IconDelete](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconDelete.js) | x | x | x 
+| [IconMenu](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconMenu.js) | x | x | x 
 
 #### Mild Priority Actions
-IconEyesight (--on --off -solid -outline)
-IconMinus (-outline -solid -line)
-IconPlus (-outline -solid -plus)
-IconSingleItem
-IconList
-IconGallery
+| Component | Types | Orientation | State 
+| :---:     |:---:  | :---:       | :---:      
+| [IconEyesight]() | solid \| outline | x | on \| off 
+| [IconMinus]() | solid \| outline \| line | x | x
+| [IconPlus]() | solid \| outline \| line | x | x 
+| [IconSingleItem]() | x | x | x 
+| [IconList]() | x | x | x 
+| [IconGallery]() | x | x | x 
 
 #### Informational
+| Component | Types | Orientation | State 
+| :---:     |:---:  | :---:       | :---:      
+|           |       |             |
 
 #### Navigation
+| Component | Types | Orientation | State 
+| :---:     |:---:  | :---:       | :---:      
+| [IconCaret]() | x | up \| down \| left \| right | x
+
 IconCaret (--down --up --left --rigt)
 
 #### Status Indicators
