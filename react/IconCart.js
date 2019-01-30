@@ -3,13 +3,13 @@ import React from 'react'
 import Icon from './components/Icon'
 import { proptypes } from './components/propTypes'
 
-const IconEyeSightOn = ({ ...props }) => {
+const IconCart = ({ ...props }) => {
   return (
-    <Icon id="mpa-s-eyesight--on" {...props} />
+    <Icon id="hpa-cart" {...props} />
   )
 }
-IconEyeSightOn.propTypes = {
+IconCart.propTypes = {
   ...proptypes
 }
 
-export default IconEyeSightOn
+export default IconCart
