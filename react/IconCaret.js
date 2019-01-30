@@ -5,7 +5,6 @@ import { find, propEq } from 'ramda'
 import Icon from './components/Icon'
 import { proptypes } from './components/propTypes'
 
-
 const IconCaret = ({ orientation, ...props }) => {
   return (
     <Icon id={getOptionTitle(orientation)} {...props} />
