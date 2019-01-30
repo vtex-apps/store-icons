@@ -8,8 +8,7 @@ const IconCart = ({ ...props }) => {
     <Icon id="hpa-cart" {...props} />
   )
 }
-IconCart.propTypes = {
-  ...proptypes
-}
+IconCart.propTypes = proptypes
+
 
 export default IconCart

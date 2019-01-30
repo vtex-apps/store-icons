@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.1.0] - 2019-01-30
+### Added
+- Add telemarketing icons.
+
 ## [0.0.3] - 2019-01-30
 ### Added
 - Add minicart icons.

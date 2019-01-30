@@ -8,8 +8,7 @@ const IconArrowBack = ({ ...props }) => {
     <Icon id="hpa-arrow-back" {...props} />
   )
 }
-IconArrowBack.propTypes = {
-  ...proptypes
-}
+
+IconArrowBack.propTypes = proptypes
 
 export default IconArrowBack

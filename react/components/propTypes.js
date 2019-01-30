@@ -10,5 +10,5 @@ export const proptypes = {
   /** Active color class */
   activeClassName: PropTypes.string,
   /** Muted color class */
-  muttedClassName: PropTypes.string,
+  mutedClassName: PropTypes.string,
 }

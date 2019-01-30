@@ -8,8 +8,7 @@ const IconClose = ({ ...props }) => {
     <Icon id="sti-s-close" {...props} />
   )
 }
-IconClose.propTypes = {
-  ...proptypes
-}
+
+IconClose.propTypes = proptypes
 
 export default IconClose
