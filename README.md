@@ -39,25 +39,41 @@ To use any icon of this project follow the steps below:
 
 ## Concepts
 
-### Styles
-#### Solid
-#### Outline
-#### Line
+### Icons API
+Any icon can receive the following props:
 
-### Modifiers
+size: Desired size (default is 16).
+isActive: Whaever the icon is active
+activeClassName: The className it should have if active
+mutedClassName: The className it should have if not active
+
+#### Modifiers
+
+#### Type
+```js
+<Icon type="solid | line | outline" />
+```
+
 #### Orientation
-#### State
+```js
+<Icon orientation="up | right | down | left" />
+```
 
-### Types
+#### State
+```js
+<Icon state="on | off" />
+```
+
+### List of Icons
 
 #### High Priority Actions
-IconArrowBack
-IconAssistantSales
-IconProfile
-IconCart
-IconSearch
-IconDelete
-IconMenu
+- [IconArrowBack](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconArrowBack.js)
+- [IconAssistantSales](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconAssistantSales.js)
+- [IconProfile](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconProfile.js)
+- [IconCart](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconCart.js)
+- [IconSearch](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconSearch.js)
+- [IconDelete](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconDelete.js)
+- [IconMenu](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconMenu.js)
 
 #### Mild Priority Actions
 IconEyesight (--on --off -solid -outline)
@@ -68,9 +84,6 @@ IconList
 IconGallery
 
 #### Informational
-Tooltip (-outline -solid)
-Warning (-outline -solid)
-Help (-outline -solid)
 
 #### Navigation
 IconCaret (--down --up --left --rigt)
