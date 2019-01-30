@@ -4,13 +4,13 @@ import React from 'react'
 import Icon from './components/Icon'
 import { proptypes } from './components/propTypes'
 
-const LoginIcon = ({ ...props }) => {
+const EyeSightOnIcon = ({ ...props }) => {
   return (
-    <Icon id="hpa-profile" {...props} />
+    <Icon id="mpa-s-eyesight--on" {...props} />
   )
 }
-LoginIcon.propTypes = {
+EyeSightOnIcon.propTypes = {
   ...proptypes
 }
 
-export default LoginIcon
+export default EyeSightOnIcon
