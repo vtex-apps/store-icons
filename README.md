@@ -40,28 +40,18 @@ To use any icon of this project follow the steps below:
 ## Concepts
 
 ### Icons API
+
 Any icon can receive the following props:
 - **size**: Desired size (default is 16).
-- **isActive**: Whaever the icon is active
+- **isActive**: Whenever the icon is active
 - **activeClassName**: The className it should have if active
 - **mutedClassName**: The className it should have if not active
+- **...props**: Its is importat to notice that any other ```<svg>``` prop passed will work with any icon as well.
 
-#### Modifiers
-
-#### Type
-```js
-<Icon type="solid | line | outline" />
-```
-
-#### Orientation
-```js
-<Icon orientation="up | right | down | left" />
-```
-
-#### State
-```js
-<Icon state="on | off" />
-```
+Some components suport modifiers. These are props that define the icon type, orientation or state.
+- **type**: possible values are *solid*, *line*, *outline*
+- **orientation**: possible values are *up*, *down*, *left*, *right*
+- **state**: possible values are *on*, *off*
 
 ### List of Icons
 
@@ -96,10 +86,10 @@ Any icon can receive the following props:
 | :---:     |:---:  | :---:       | :---:      
 | [IconCaret]() | x | up \| down \| left \| right | x
 
-IconCaret (--down --up --left --rigt)
-
 #### Status Indicators
-IconClose (-solid -outline)
+| Component | Types | Orientation | State 
+| :---:     |:---:  | :---:       | :---:      
+| [IconClose]() | solid \| outline | x | x
 
 ## Testing
 
