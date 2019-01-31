@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon from './components/Icon'
 import { proptypes } from './components/propTypes'
-import withShape from './components/decorators/withShape'
+import { withShape, enhance } from './components/enhancers'
 
 const IconSocial = ({ network, ...props}) => {
     return (
@@ -11,4 +11,4 @@ const IconSocial = ({ network, ...props}) => {
 
 IconSocial.proptypes = proptypes
 
-export default withShape(IconSocial)
+export default enhance(withShape)(IconSocial)
