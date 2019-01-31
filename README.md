@@ -8,10 +8,18 @@ All the icons that Dreamstore apps use.
 
 | Release  | Status              | Initial Release | Maintenance LTS Start | End-of-life | Dreamstore Compatibility
 | :--:     | :---:               |  :---:          | :---:                 | :---:       | :---: 
-| [x.x]    | **Maintenance LTS** |  YYYY-mm-DD     | YYYY-mm-DD            | Month YYYY  | x.x
+| [0.x]    | **Current Release** |  2019-01-30     | -----------           | ----------  | 2.x
 
 ## Table of Contents
 - [Usage](#usage)
+- [Concepts](#concepts)
+    - [Icons API](#icons-api)
+- [Icons List](#icons-list)
+    - [High Priority Actions](#high-priority-actions)
+    - [Middle Priority Actions](#middle-priority-actions)
+    - [Informational](#informational)
+    - [Navigation](#navigation)
+    - [Status Indicators](#status-indicators)
 - [Testing](#testing)
 
 ## Usage
@@ -53,30 +61,30 @@ Some components suport modifiers. These are props that define the icon type, ori
 - **orientation**: possible values are *up*, *down*, *left*, *right*
 - **state**: possible values are *on*, *off*
 
-### List of Icons
+## Icons List
 
-#### High Priority Actions
+### High Priority Actions
 | Component | Types | Orientation | State 
 | :---:     |:---:  | :---:       | :---:      
-| [IconArrowBack](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconArrowBack.js) | x | x | x 
-| [IconAssistantSales](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconAssistantSales.js) | x | x | x 
-| [IconProfile](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconProfile.js) | x | x | x 
-| [IconCart](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconCart.js) | x | x | x 
-| [IconSearch](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconSearch.js) | x | x | x 
-| [IconDelete](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconDelete.js) | x | x | x 
-| [IconMenu](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconMenu.js) | x | x | x 
+| [IconArrowBack](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconArrowBack.js) | 🚫 | 🚫 | 🚫 
+| [IconAssistantSales](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconAssistantSales.js) | 🚫 | 🚫 | 🚫  
+| [IconProfile](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconProfile.js) | 🚫 | 🚫 | 🚫 
+| [IconCart](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconCart.js) | 🚫 | 🚫 | 🚫 
+| [IconSearch](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconSearch.js) | 🚫 | 🚫 | 🚫 
+| [IconDelete](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconDelete.js) | 🚫 | 🚫 | 🚫 
+| [IconMenu](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconMenu.js) | 🚫 | 🚫 | 🚫 
 
-#### Mild Priority Actions
+### Middle Priority Actions
 | Component | Types | Orientation | State 
 | :---:     |:---:  | :---:       | :---:      
-| [IconEyesight]() | solid \| outline | x | on \| off 
-| [IconMinus]() | solid \| outline \| line | x | x
-| [IconPlus]() | solid \| outline \| line | x | x 
-| [IconSingleItem]() | x | x | x 
-| [IconList]() | x | x | x 
-| [IconGallery]() | x | x | x 
+| [IconEyesight]() | solid \| outline |  🚫 | on \| off 
+| [IconMinus]() | solid \| outline \| line | 🚫 | 🚫
+| [IconPlus]() | solid \| outline \| line | 🚫 | 🚫
+| [IconSingleItem]() | 🚫 | 🚫 | 🚫 
+| [IconList]() | 🚫 | 🚫 | 🚫 
+| [IconGallery]() | 🚫 | 🚫 | 🚫 
 
-#### Informational
+### Informational
 | Component | Types | Orientation | State 
 | :---:     |:---:  | :---:       | :---:      
 |           |       |             |
@@ -84,12 +92,12 @@ Some components suport modifiers. These are props that define the icon type, ori
 #### Navigation
 | Component | Types | Orientation | State 
 | :---:     |:---:  | :---:       | :---:      
-| [IconCaret]() | x | up \| down \| left \| right | x
+| [IconCaret]() | 🚫 | up \| down \| left \| right | 🚫
 
-#### Status Indicators
+### Status Indicators
 | Component | Types | Orientation | State 
 | :---:     |:---:  | :---:       | :---:      
-| [IconClose]() | solid \| outline | x | x
+| [IconClose]() | solid \| outline | 🚫 | 🚫
 
 ## Testing
 
