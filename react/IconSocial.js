@@ -5,7 +5,7 @@ import { withShape } from './components/enhancers'
 
 const IconSocial = ({ network, ...props}) => {
     return (
-        <Icon id={`soc-${network}`} {...props} />
+        <Icon id={`bnd-${network}`} {...props} />
     )
 }
 
