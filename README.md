@@ -97,7 +97,7 @@ Some components support modifiers. These are props that define the icon type, or
 | :---:     |:---: | :---:       | :---: | :---:      
 |           |      |             |
 
-#### Navigation
+### Navigation
 | Component | Type | Orientation | State | Shape
 | :---:     |:---: | :---:       | :---: | :---:  
 | [IconCaret](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconCaret.js) | 🚫 | up \| down \| left \| right | 🚫| 🚫 
