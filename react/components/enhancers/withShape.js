@@ -1,34 +1,15 @@
 import React from 'react'
-import { find, propEq } from 'ramda'
+import { getModifier } from './helpers'
+import { SHAPES } from './options';
 
 const REDUCTION_PERCENTAGE = 0.4
-const DEFAULT_SHAPES = [
-    {
-        id: 'square',
-        modifiers: 'br1'
-    },
-    {
-        id: 'rounded',
-        modifiers: 'br3'
-    },
-    {
-        id: 'circle',
-        modifiers: 'br-100'
-    }
-]
 const getReduction = size => size * REDUCTION_PERCENTAGE
-const getModifiers = shape => {
-    const defaultShape = find(propEq('id', shape), DEFAULT_SHAPES)
-    return !!defaultShape
-    ? defaultShape.modifiers
-    : shape
-}
 
 const withShape = Icon => ({ shape, size, background, ...props }) => {
     
     if(!shape) return <Icon {...props} />
 
-    const modifiers = getModifiers(shape)
+    const modifiers = getModifier(shape, SHAPES)
     const reduction = getReduction(size)
     const padding = reduction / 2
     const iconSize = size - reduction
