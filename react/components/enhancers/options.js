@@ -46,10 +46,14 @@ export const STATES = [
 export const TYPES = [
   {
     id: 'filled',
-    modifier: '-f',
+    modifier: '--f',
   },
   {
     id: 'outline',
-    modifier: '-o',
+    modifier: '--o',
+  },
+  {
+    id: 'line',
+    modifier: '--l',
   },
 ]
