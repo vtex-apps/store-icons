@@ -5,7 +5,7 @@ import { proptypes } from './components/propTypes'
 
 const IconGrid = ({ ...props }) => {
   return (
-    <Icon id="grid-search-result" {...props} />
+    <Icon id="mpa-gallery" {...props} />
   )
 }
 

@@ -6,7 +6,7 @@ import { withOrientation } from './components/enhancers'
 
 const IconCaret = ({ orientation, ...props }) => {
   return (
-    <Icon id={`nav-angle${orientation}`} {...props} />
+    <Icon id={`nav-caret${orientation}`} {...props} />
   )
 }
 
