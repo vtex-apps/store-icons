@@ -1,10 +1,13 @@
 import React from 'react'
-import { getModifier } from './helpers'
+import { getModifier, getSubset } from './helpers'
 import { ORIENTATIONS } from './options'
 
-const withOrientation = Icon => ({ orientation, ...props }) => {
+const withOrientation = supported => Icon => ({ orientation, ...props }) => {
+    
+    const supportedOrientations = !!supported ? getSubset(supported, ORIENTATIONS) : ORIENTATIONS
+
     return(
-        <Icon orientation={getModifier(orientation, ORIENTATIONS)} {...props} />
+        <Icon orientation={getModifier(orientation, supportedOrientations)} {...props} />
     )
 }
 

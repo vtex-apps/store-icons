@@ -1,4 +1,4 @@
-import { find, propEq } from 'ramda'
+import { find, propEq, contains } from 'ramda'
 
 /**
  * Get the modifer from any collection matching the rule collection{id, modifier}
@@ -10,4 +10,15 @@ export const getModifier = (id, collection) => {
     return !!foundItem
     ? foundItem.modifier
     : id
+}
+
+/**
+ * Get a subset of the collections with given ids (passed with commas)
+ * @param {*} tokens 
+ * @param {*} collection 
+ */
+export const getSubset = (tokens, collection) => {
+    console.log('tokens')
+    const ids = tokens.split(',').join('')
+    return collection.filter(item => contains(item.id, ids))
 }
