@@ -15,6 +15,7 @@ All the icons that Dreamstore apps use.
 - [Concepts](#concepts)
     - [Icons API](#icons-api)
 - [Icons List](#icons-list)
+    - [Brand](#brand)
     - [High Priority Actions](#high-priority-actions)
     - [Middle Priority Actions](#middle-priority-actions)
     - [Informational](#informational)
@@ -56,48 +57,56 @@ Any icon can receive the following props:
 - **mutedClassName**: The className it should have if not active
 - **...props**: Its is importat to notice that any other ```<svg>``` prop passed will work with any icon as well.
 
-Some components suport modifiers. These are props that define the icon type, orientation or state.
+Some components suport modifiers. These are props that define the icon type, orientation, state or shape.
 - **type**: possible values are *solid*, *line*, *outline*
 - **orientation**: possible values are *up*, *down*, *left*, *right*
 - **state**: possible values are *on*, *off*
+- **shape**: possible values are *square*, *rounded*, *circle*
 
 ## Icons List
+### Brand
+| Component | Type | Orientation | State | Shape
+| :---:     |:---:  | :---:       | :---: | :---:
+| [IconSocial](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconSocial.js) | 🚫 | 🚫 | 🚫 |  square \| rounded \| circle
 
 ### High Priority Actions
-| Component | Types | Orientation | State 
-| :---:     |:---:  | :---:       | :---:      
-| [IconArrowBack](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconArrowBack.js) | 🚫 | 🚫 | 🚫 
-| [IconAssistantSales](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconAssistantSales.js) | 🚫 | 🚫 | 🚫  
-| [IconProfile](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconProfile.js) | 🚫 | 🚫 | 🚫 
-| [IconCart](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconCart.js) | 🚫 | 🚫 | 🚫 
-| [IconSearch](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconSearch.js) | 🚫 | 🚫 | 🚫 
-| [IconDelete](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconDelete.js) | 🚫 | 🚫 | 🚫 
-| [IconMenu](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconMenu.js) | 🚫 | 🚫 | 🚫 
+| Component | Type | Orientation | State | Shape
+| :---:     |:---: | :---:       | :---: | :---:   
+| [IconArrowBack](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconArrowBack.js) | 🚫 | 🚫 | 🚫 | 🚫 
+| [IconAssistantSales](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconAssistantSales.js) | 🚫 | 🚫 | 🚫| 🚫 
+| [IconProfile](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconProfile.js) | 🚫 | 🚫 | 🚫 | 🚫 
+| [IconCart](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconCart.js) | 🚫 | 🚫 | 🚫 | 🚫 
+| [IconSearch](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconSearch.js) | 🚫 | 🚫 | 🚫 | 🚫 
+| [IconDelete](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconDelete.js) | 🚫 | 🚫 | 🚫 | 🚫 
+| [IconMenu](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconMenu.js) | 🚫 | 🚫 | 🚫 | 🚫 
 
 ### Middle Priority Actions
-| Component | Types | Orientation | State 
-| :---:     |:---:  | :---:       | :---:      
-| [IconEyesight]() | solid \| outline |  🚫 | on \| off 
-| [IconMinus]() | solid \| outline \| line | 🚫 | 🚫
-| [IconPlus]() | solid \| outline \| line | 🚫 | 🚫
-| [IconSingleItem]() | 🚫 | 🚫 | 🚫 
-| [IconList]() | 🚫 | 🚫 | 🚫 
-| [IconGallery]() | 🚫 | 🚫 | 🚫 
+| Component | Type | Orientation | State | Shape
+| :---:     |:---: | :---:       | :---: | :---:     
+| [IconEyesight](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconEyesight.js) | solid \| outline |  🚫 | on \| off | 🚫 
+| [IconMinus](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconMinus.js) | solid \| outline \| line | 🚫 | 🚫| 🚫 
+| [IconPlus](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconPlus.js) | solid \| outline \| line | 🚫 | 🚫| 🚫 
+| [IconSingleItem](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconSingleItem.js) | 🚫 | 🚫 | 🚫 | 🚫 
+| [IconList](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconList.js) | 🚫 | 🚫 | 🚫 | 🚫 
+| [IconGallery](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconGallery.js) | 🚫 | 🚫 | 🚫 | 🚫 
+| [IconRemove](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconRemove.js) | 🚫 | 🚫 | 🚫 | 🚫 
+| [IconSwap](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconSwap.js) | 🚫 | 🚫 | 🚫 | 🚫 
 
 ### Informational
-| Component | Types | Orientation | State 
-| :---:     |:---:  | :---:       | :---:      
-|           |       |             |
+| Component | Type | Orientation | State | Shape
+| :---:     |:---: | :---:       | :---: | :---:      
+|           |      |             |
 
 #### Navigation
-| Component | Types | Orientation | State 
-| :---:     |:---:  | :---:       | :---:      
-| [IconCaret]() | 🚫 | up \| down \| left \| right | 🚫
+| Component | Type | Orientation | State | Shape
+| :---:     |:---: | :---:       | :---: | :---:  
+| [IconCaret](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconCaret.js) | 🚫 | up \| down \| left \| right | 🚫| 🚫 
+
 
 ### Status Indicators
-| Component | Types | Orientation | State 
-| :---:     |:---:  | :---:       | :---:      
-| [IconClose]() | solid \| outline | 🚫 | 🚫
+| Component | Type | Orientation | State | Shape
+| :---:     |:---: | :---:       | :---: | :---:     
+| [IconClose](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconClose.js) | solid \| outline | 🚫 | 🚫 | 🚫 
 
 ## Testing
 
