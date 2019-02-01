@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import Icon from './components/Icon'
 import { proptypes } from './components/propTypes'
 import { withShape } from './components/enhancers'
