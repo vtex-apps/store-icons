@@ -9,6 +9,10 @@ const IconSocial = ({ network, ...props}) => {
     )
 }
 
-IconSocial.proptypes = proptypes
+IconSocial.propTypes = {
+    /** Social network id */
+    network: PropTypes.string.isRequired,
+    ...proptypes
+}
 
 export default withShape(IconSocial)
