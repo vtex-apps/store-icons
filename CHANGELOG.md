@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.4.0] - 2019-01-31
+### Added
+- Add social icons.
+- Add `withShape` enhancer.
+- Add `withOrientation` enhancer.
+### Changed
+- Make `IconCaret` use `withOrientation` enhancer. 
+
 ## [0.3.0] - 2019-01-30
 ### Added
 - Add search-result icons. 
