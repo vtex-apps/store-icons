@@ -25,9 +25,9 @@ All the icons that Dreamstore apps use.
 
 ## Usage
 
-To use any icon of this project follow the steps below:
+To use an icon of this project follows the steps below:
 
-1. Add into the dependencies of your `manifest.json` and use it like a npm module.
+1. Add into the dependencies of your `manifest.json` and use it like an npm module.
     ```json
     "dependencies": {
         "vtex.dreamstore-icons": "0.x"
@@ -55,9 +55,9 @@ Any icon can receive the following props:
 - **isActive**: Whenever the icon is active
 - **activeClassName**: The className it should have if active
 - **mutedClassName**: The className it should have if not active
-- **...props**: Its is importat to notice that any other ```<svg>``` prop passed will work with any icon as well.
+- **...props**: It is important to notice that any other ```<svg>``` prop passed will work with an icon as well.
 
-Some components suport modifiers. These are props that define the icon type, orientation, state or shape.
+Some components support modifiers. These are props that define the icon type, orientation, state or shape.
 - **type**: possible values are *solid*, *line*, *outline*
 - **orientation**: possible values are *up*, *down*, *left*, *right*
 - **state**: possible values are *on*, *off*
@@ -110,7 +110,7 @@ Some components suport modifiers. These are props that define the icon type, ori
 
 ## Testing
 
-To test your code you should run on your workspace:
+To test your code, you should run on your workspace:
 
 ```sh
 vtex link
