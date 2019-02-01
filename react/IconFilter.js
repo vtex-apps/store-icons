@@ -5,7 +5,7 @@ import { proptypes } from './components/propTypes'
 
 const IconFilter = ({ ...props }) => {
   return (
-    <Icon id="search-result-filter" {...props} />
+    <Icon id="mpa-filter-settings" {...props} />
   )
 }
 

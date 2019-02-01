@@ -5,7 +5,7 @@ import { proptypes } from './components/propTypes'
 
 const IconInlineGrid = ({ ...props }) => {
   return (
-    <Icon id="list-grid-search-result" {...props} />
+    <Icon id="mpa-list-items" {...props} />
   )
 }
 

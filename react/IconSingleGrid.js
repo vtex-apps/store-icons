@@ -5,7 +5,7 @@ import { proptypes } from './components/propTypes'
 
 const IconSingleGrid = ({ ...props }) => {
   return (
-    <Icon id="single-item-grid-search-result" {...props} />
+    <Icon id="mpa-single-item" {...props} />
   )
 }
 
