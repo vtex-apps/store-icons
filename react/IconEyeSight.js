@@ -18,7 +18,6 @@ IconEyeSight.propTypes = {
   ...proptypes
 }
 
-
 export default compose(
   withState,
   withType,
