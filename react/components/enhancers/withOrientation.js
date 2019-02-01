@@ -4,7 +4,7 @@ import { ORIENTATIONS } from './options'
 
 const withOrientation = Icon => ({ orientation, ...props }) => {
     return(
-        <Icon oSuffix={getModifier(orientation, ORIENTATIONS)} {...props} />
+        <Icon orientation={getModifier(orientation, ORIENTATIONS)} {...props} />
     )
 }
 

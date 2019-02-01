@@ -4,15 +4,15 @@ import Icon from './components/Icon'
 import { proptypes } from './components/propTypes'
 import { withOrientation } from './components/enhancers'
 
-const IconCaret = ({ oSuffix, ...props }) => {
+const IconCaret = ({ orientation, ...props }) => {
   return (
-    <Icon id={`nav-angle${oSuffix}`} {...props} />
+    <Icon id={`nav-angle${orientation}`} {...props} />
   )
 }
 
 IconCaret.propTypes = {
-  /** Orientation suffix */
-  oSuffix: PropTypes.string.isRequired,
+  /** Orientation of the icon */
+  orientation: PropTypes.string.isRequired,
   ...proptypes
 }
 
