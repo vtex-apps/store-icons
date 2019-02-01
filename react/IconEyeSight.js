@@ -19,6 +19,6 @@ IconEyeSight.propTypes = {
 }
 
 export default compose(
-  withState,
-  withType,
+  withState(),
+  withType('filled, outline'),
 )(IconEyeSight)

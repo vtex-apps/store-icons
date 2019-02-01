@@ -1,10 +1,13 @@
 import React from 'react'
-import { getModifier } from './helpers'
+import { getModifier, getSubset } from './helpers'
 import { STATES } from './options'
 
-const withState = Icon => ({ state, ...props }) => {
+const withState = supported => Icon => ({ state, ...props }) => {
+    
+    const supportedStates = !!supported ? getSubset(supported, STATES) : STATES
+
     return (
-        <Icon state={getModifier(state, STATES)} {...props} />
+        <Icon state={getModifier(state, supportedStates)} {...props} />
     )
 }
 
