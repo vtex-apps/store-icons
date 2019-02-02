@@ -50,7 +50,7 @@ To use an icon of this project follows the steps below:
 
 ## Concept
 
-This project is based on [SVG fragment identifiers](https://css-tricks.com/svg-fragment-identifiers-work/). All dreamstore icons are served by Render SDK, and with HTML tag `<use>` we can render a fragment from our icon pack. If you want to know the complet list of icons, [see here]()
+This project is based on [SVG fragment identifiers](https://css-tricks.com/svg-fragment-identifiers-work/). All dreamstore icons are served by Render SDK, and with HTML tag `<use>` we can render a fragment from our icon pack. If you want to know the complet list of icons, [see here](https://github.com/vtex-apps/dreamstore-icons/blob/master/ICONPACK.md)
 
 ### Icons API
 
