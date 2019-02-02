@@ -2,7 +2,9 @@
 
 ## Description
 
-All the icons that Dreamstore apps use.
+All Dreamstore icons components. 
+
+**Disclaimer** Don't fork this project, use, contribute, or open issue with your feature request.
 
 ## Release schedule
 
@@ -46,7 +48,9 @@ To use an icon of this project follows the steps below:
     )
     ```
 
-## Concepts
+## Concept
+
+This project is based on [SVG fragment identifiers](https://css-tricks.com/svg-fragment-identifiers-work/). All dreamstore icons are served by Render SDK, and with HTML tag `<use>` we can render a fragment from our icon pack. If you want to know the complet list of icons, [see here]()
 
 ### Icons API
 
@@ -115,3 +119,4 @@ To test your code, you should run on your workspace:
 ```sh
 vtex link
 ```
+
