@@ -16,4 +16,4 @@ IconSocial.propTypes = {
     ...proptypes
 }
 
-export default withShape(IconSocial)
+export default withShape()(IconSocial)

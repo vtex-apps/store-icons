@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Icon from './components/Icon'
 import { proptypes } from './components/propTypes'
-import { withOrientation } from './components/enhancers'
+import { withOrientation, enhance } from './components/enhancers'
 
 const IconCaret = ({ orientation, ...props }) => {
   return (
@@ -16,4 +16,4 @@ IconCaret.propTypes = {
   ...proptypes
 }
 
-export default withOrientation(IconCaret)
+export default withOrientation()(IconCaret)

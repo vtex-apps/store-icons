@@ -1,10 +1,13 @@
 import React from 'react'
-import { getModifier } from './helpers'
+import { getModifier, getSubset } from './helpers'
 import { TYPES } from './options'
 
-const withType = Icon => ({ type, ...props }) => {
+const withType = supported => Icon => ({ type, ...props }) => {
+
+    const supportedTypes = !!supported ? getSubset(supported, TYPES) : TYPES
+
     return (
-        <Icon type={getModifier(type, TYPES)} {...props} />
+        <Icon type={getModifier(type, supportedTypes)} {...props} />
     )
 }
 

@@ -1,15 +1,16 @@
 import React from 'react'
-import { getModifier } from './helpers'
+import { getModifier, getSubset } from './helpers'
 import { SHAPES } from './options';
 
 const REDUCTION_PERCENTAGE = 0.4
 const getReduction = size => size * REDUCTION_PERCENTAGE
 
-const withShape = Icon => ({ shape, size, background, ...props }) => {
+const withShape = supported => Icon => ({ shape, size, background, ...props }) => {
     
     if(!shape) return <Icon {...props} />
 
-    const modifiers = getModifier(shape, SHAPES)
+    const supportedShapes = !!supported ? getSubset(supported, SHAPES) : SHAPES
+    const modifiers = getModifier(shape, supportedShapes)
     const reduction = getReduction(size)
     const padding = reduction / 2
     const iconSize = size - reduction
