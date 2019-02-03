@@ -1,16 +1,16 @@
 export const SHAPES = [
   {
     id: 'square',
-    modifier: 'br1'
+    modifier: 'br1',
   },
   {
     id: 'rounded',
-    modifier: 'br3'
+    modifier: 'br3',
   },
   {
     id: 'circle',
-    modifier: 'br-100'
-  }
+    modifier: 'br-100',
+  },
 ]
 
 export const ORIENTATIONS = [
