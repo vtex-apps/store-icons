@@ -1,7 +1,7 @@
 {
   "name": "dreamstore-icons",
   "vendor": "vtex",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "title": "VTEX Dreamstore icons",
   "description": "All icons that Dreamstore apps use.",
   "mustUpdateAt": "2020-01-30",
