@@ -1,14 +1,14 @@
-# Dreamstore Icons
+# Store Icons
 
 ## Description
 
-All Dreamstore icons components. 
+All Store icons components. 
 
 **Disclaimer:** Don't fork this project, use, contribute, or open issue with your feature request.
 
 ## Release schedule
 
-| Release  | Status              | Initial Release | Maintenance LTS Start | End-of-life | Dreamstore Compatibility
+| Release  | Status              | Initial Release | Maintenance LTS Start | End-of-life | Store Compatibility
 | :--:     | :---:               |  :---:          | :---:                 | :---:       | :---: 
 | [0.x]    | **Current Release** |  2019-01-30     | -----------           | ----------  | 2.x
 
@@ -32,14 +32,14 @@ To use an icon of this project follows the steps below:
 1. Add into the dependencies of your `manifest.json` and use it like an npm module.
     ```json
     "dependencies": {
-        "vtex.dreamstore-icons": "0.x"
+        "vtex.store-icons": "0.x"
     }
     ```
 
 2. Import and use it into your code, for example: 
     ```js
     ...
-    import { IconMenu } from 'vtex.dreamstore-icons'
+    import { IconMenu } from 'vtex.store-icons'
     ...
     const YourComponent = props => (
         ...
@@ -50,7 +50,7 @@ To use an icon of this project follows the steps below:
 
 ## Concept
 
-This project is based on [SVG fragment identifiers](https://css-tricks.com/svg-fragment-identifiers-work/). All dreamstore icons are served by Render SDK, and with HTML tag `<use>` we can render a fragment from our icon pack. If you want to know the complete list of fragment SVG's, [see here](https://github.com/vtex-apps/dreamstore-icons/blob/master/ICONPACK.md)
+This project is based on [SVG fragment identifiers](https://css-tricks.com/svg-fragment-identifiers-work/). All store icons are served by Render SDK, and with HTML tag `<use>` we can render a fragment from our icon pack. If you want to know the complete list of fragment SVG's, [see here](https://github.com/vtex-apps/store-icons/blob/master/ICONPACK.md)
 
 ### Icons API
 
@@ -71,30 +71,30 @@ Some components support modifiers. These are props that define the icon type, or
 ### Brand
 | Component | Type | Orientation | State | Shape
 | :---:     |:---:  | :---:       | :---: | :---:
-| [IconSocial](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconSocial.js) | 🚫 | 🚫 | 🚫 |  square \| rounded \| circle
+| [IconSocial](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSocial.js) | 🚫 | 🚫 | 🚫 |  square \| rounded \| circle
 
 ### High Priority Actions
 | Component | Type | Orientation | State | Shape
 | :---:     |:---: | :---:       | :---: | :---:   
-| [IconArrowBack](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconArrowBack.js) | 🚫 | 🚫 | 🚫 | 🚫 
-| [IconAssistantSales](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconAssistantSales.js) | 🚫 | 🚫 | 🚫| 🚫 
-| [IconProfile](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconProfile.js) | 🚫 | 🚫 | 🚫 | 🚫 
-| [IconCart](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconCart.js) | 🚫 | 🚫 | 🚫 | 🚫 
-| [IconSearch](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconSearch.js) | 🚫 | 🚫 | 🚫 | 🚫 
-| [IconDelete](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconDelete.js) | 🚫 | 🚫 | 🚫 | 🚫 
-| [IconMenu](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconMenu.js) | 🚫 | 🚫 | 🚫 | 🚫 
+| [IconArrowBack](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconArrowBack.js) | 🚫 | 🚫 | 🚫 | 🚫 
+| [IconAssistantSales](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconAssistantSales.js) | 🚫 | 🚫 | 🚫| 🚫 
+| [IconProfile](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconProfile.js) | 🚫 | 🚫 | 🚫 | 🚫 
+| [IconCart](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconCart.js) | 🚫 | 🚫 | 🚫 | 🚫 
+| [IconSearch](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSearch.js) | 🚫 | 🚫 | 🚫 | 🚫 
+| [IconDelete](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconDelete.js) | 🚫 | 🚫 | 🚫 | 🚫 
+| [IconMenu](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconMenu.js) | 🚫 | 🚫 | 🚫 | 🚫 
 
 ### Middle Priority Actions
 | Component | Type | Orientation | State | Shape
 | :---:     |:---: | :---:       | :---: | :---:     
-| [IconEyesight](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconEyesight.js) | solid \| outline |  🚫 | on \| off | 🚫 
-| [IconMinus](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconMinus.js) | solid \| outline \| line | 🚫 | 🚫| 🚫 
-| [IconPlus](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconPlus.js) | solid \| outline \| line | 🚫 | 🚫| 🚫 
-| [IconSingleItem](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconSingleItem.js) | 🚫 | 🚫 | 🚫 | 🚫 
-| [IconList](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconList.js) | 🚫 | 🚫 | 🚫 | 🚫 
-| [IconGallery](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconGallery.js) | 🚫 | 🚫 | 🚫 | 🚫 
-| [IconRemove](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconRemove.js) | 🚫 | 🚫 | 🚫 | 🚫 
-| [IconSwap](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconSwap.js) | 🚫 | 🚫 | 🚫 | 🚫 
+| [IconEyesight](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconEyesight.js) | solid \| outline |  🚫 | on \| off | 🚫 
+| [IconMinus](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconMinus.js) | solid \| outline \| line | 🚫 | 🚫| 🚫 
+| [IconPlus](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconPlus.js) | solid \| outline \| line | 🚫 | 🚫| 🚫 
+| [IconSingleItem](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSingleItem.js) | 🚫 | 🚫 | 🚫 | 🚫 
+| [IconList](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconList.js) | 🚫 | 🚫 | 🚫 | 🚫 
+| [IconGallery](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconGallery.js) | 🚫 | 🚫 | 🚫 | 🚫 
+| [IconRemove](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconRemove.js) | 🚫 | 🚫 | 🚫 | 🚫 
+| [IconSwap](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSwap.js) | 🚫 | 🚫 | 🚫 | 🚫 
 
 ### Informational
 | Component | Type | Orientation | State | Shape
@@ -104,13 +104,13 @@ Some components support modifiers. These are props that define the icon type, or
 ### Navigation
 | Component | Type | Orientation | State | Shape
 | :---:     |:---: | :---:       | :---: | :---:  
-| [IconCaret](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconCaret.js) | 🚫 | up \| down \| left \| right | 🚫| 🚫 
+| [IconCaret](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconCaret.js) | 🚫 | up \| down \| left \| right | 🚫| 🚫 
 
 
 ### Status Indicators
 | Component | Type | Orientation | State | Shape
 | :---:     |:---: | :---:       | :---: | :---:     
-| [IconClose](https://github.com/vtex-apps/dreamstore-icons/blob/feature/docs/react/IconClose.js) | solid \| outline | 🚫 | 🚫 | 🚫 
+| [IconClose](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconClose.js) | solid \| outline | 🚫 | 🚫 | 🚫 
 
 ## Testing
 
