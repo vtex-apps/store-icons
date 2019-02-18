@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.6.2] - 2019-02-13
+### Changed
+- Make `IconClose` receive types.
+
 ## [0.6.1] - 2019-02-08
 ### Added
 - Add `HomeIcon`.
