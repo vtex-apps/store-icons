@@ -19,7 +19,7 @@ const Icon = ({ id, isActive, size, viewBox, activeClassName, mutedClassName, ..
 
 Icon.defaultProps = {
   isActive: true,
-  size: '16',
+  size: 16,
   viewBox: '0 0 16 16'
 }
 
