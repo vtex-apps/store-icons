@@ -7,7 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 ### Fixed
-- Fixed conflict between propTypes and defaultProps on `Icon`.  
+- Fixed conflict between propTypes and defaultProps on `Icon`.
+- Fixed SSR issues.  
 
 ## [0.6.2] - 2019-02-13
 ### Changed

@@ -4,14 +4,13 @@ import Use from './Use'
 import Svg from './Svg'
 import { proptypes } from './propTypes';
 
-const Icon = ({ id, isActive, size, viewBox, activeClassName, mutedClassName, ...props }) => (
+const Icon = ({ id, isActive, size, viewBox, activeClassName, mutedClassName }) => (
   <Svg
     fill='none'
     width={size}
     height={size}
     viewBox={viewBox}
     className={isActive ? activeClassName : mutedClassName}
-    {...props}
   >
     <Use id={id} />
   </Svg>
