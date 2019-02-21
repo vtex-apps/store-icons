@@ -4,9 +4,7 @@ import Icon from './components/Icon'
 import { proptypes } from './components/propTypes'
 
 const IconRemove = ({ ...props }) => {
-  return (
-    <Icon id="mpa-remove" {...props} />
-  )
+  return <Icon id="mpa-remove" {...props} />
 }
 
 IconRemove.propTypes = proptypes

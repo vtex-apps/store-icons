@@ -4,9 +4,7 @@ import Icon from './components/Icon'
 import { proptypes } from './components/propTypes'
 
 const IconCart = ({ ...props }) => {
-  return (
-    <Icon id="hpa-cart" {...props} />
-  )
+  return <Icon id="hpa-cart" {...props} />
 }
 
 IconCart.propTypes = proptypes
