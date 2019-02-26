@@ -2,6 +2,8 @@
 
   Here we describe all our SVG fragment identifiers. 
   
+ :loudspeaker: **Disclaimer:** To use this fragments like an Icon in your apps, you should do like us in [IconCart](https://github.com/vtex-apps/store-icons/blob/master/react/IconCart.js).
+ 
   
 <center>
   
