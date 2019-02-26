@@ -7,11 +7,14 @@
 
 ### How to use this fragments? 
 
+First of all, you should add the `vtex.dreamstore-icons` to your dependencies in `manifest.json`. 
+
+This an example that show you how to use it. 
+
 ```javascript
   import React from 'react'
 
-  import Icon from './components/Icon'
-  import { proptypes } from './components/propTypes'
+  import Icon from 'vtex.dreamstore-icons'
 
   const IconSearch = ({ ...props }) => {
     return <Icon id="hpa-search" {...props} />
