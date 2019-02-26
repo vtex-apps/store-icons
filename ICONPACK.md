@@ -2,11 +2,53 @@
 
   Here we describe all our SVG fragment identifiers. 
   
- :loudspeaker: **Disclaimer:** To use this fragments like an Icon in your apps, you should do like us in [IconCart](https://github.com/vtex-apps/store-icons/blob/master/react/IconCart.js).
+ :loudspeaker: **Disclaimer:** The `svg/` folder is just to render the icons in this MD.
+
+
+### How to use this fragments? 
+
+```javascript
+  import React from 'react'
+
+  import Icon from './components/Icon'
+  import { proptypes } from './components/propTypes'
+
+  const IconSearch = ({ ...props }) => {
+    return <Icon id="hpa-search" {...props} />
+  }
+
+  IconSearch.propTypes =  {
+    /** Icon size, aspect ratio 1:1 */
+    size: PropTypes.number,
+    /** Icon viewBox. Default 0, 0, 16, 16 */
+    viewBox: PropTypes.string,
+    /** Define if will be used a active or muted className */
+    isActive: PropTypes.bool,
+    /** Active color class */
+    activeClassName: PropTypes.string,
+    /** Muted color class */
+    mutedClassName: PropTypes.string,
+  }
+  export default IconSearch
+
+ ```
+
+
  
+### SVG Prefixes 
+
+We use a series of prefixes to help us understand what an specific icon means. 
+
+* bnd - Brand;
+* hpa - High Priority Actions;
+* mpa - Midle Priority Actions;
+* sti - Status Indicator; 
+* nav - Navigation
   
 <center>
-  
+
+### SVG Fragments
+
 | Icon                                    | ID                         |
 | --------------------------------------- | -------------------------- |
 | ![](svg/bnd-logo.svg)                   | bnd-logo                   |
