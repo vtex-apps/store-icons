@@ -5,7 +5,6 @@
   
   
   
-| Icon | ID  |
-| ---- | --- |
-
-| ![](svg/bnd-logo.svg)  | bnd-logo | 
+| Icon                  | ID       |
+| --------------------- | -------- |
+| ![](svg/bnd-logo.svg) | bnd-logo |
