@@ -3,7 +3,7 @@
   Here we describe all our SVG fragment identifiers. 
   
   
-  
+<center>
   
 | Icon                                    | ID                         |
 | --------------------------------------- | -------------------------- |
@@ -83,3 +83,4 @@
 | ![](svg/sti-clock.svg)                  | sti-clock                  |
 | ![](svg/sti-equals.svg)                 | sti-equals                 |
 | ![](svg/sti-discount.svg)               | sti-discount               |
+</center>
