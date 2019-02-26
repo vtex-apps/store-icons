@@ -4,4 +4,7 @@ Here we describe all our SVG fragment identifiers.
 
 
 
-![](svg/bnd-logo.svg)
+
+| ID         | Icon                  |
+| ---------- | --------------------- |
+| `bnd-logo` | ![](svg/bnd-logo.svg) |
