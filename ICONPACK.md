@@ -2,7 +2,7 @@
 
   Here we describe all our SVG fragment identifiers. 
   
- :loudspeaker: **Disclaimer:** The `svg/` folder is just to render the icons in this MD.
+ :loudspeaker: **Disclaimer:** The `svg/` folder is just to render the icons in this MD. And this doc is to know how things work under the hoods. 
 
 
 ### How to use this fragments? 
