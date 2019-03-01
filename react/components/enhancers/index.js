@@ -1,5 +1,0 @@
-export { default as enhance } from './enhance'
-export { default as withShape } from './withShape'
-export { default as withOrientation } from './withOrientation'
-export { default as withState } from './withState'
-export { default as withType } from './withType'
