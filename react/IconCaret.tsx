@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Icon from './components/Icon'
 import { proptypes } from './components/propTypes'
-import { getOrientation } from './components/enhancers/helpers'
+import { getOrientation } from './components/helpers'
 
 const IconCaret = ({ orientation, ...props }: EnhancedIconProps) => {
   const orientationModifier = getOrientation(orientation)

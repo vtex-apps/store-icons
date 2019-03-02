@@ -1,15 +1,32 @@
-import React from 'react'
+import React, { createElement } from 'react'
 import PropTypes from 'prop-types'
 import Icon from './components/Icon'
 import { proptypes } from './components/propTypes'
-//WITH SHAPE
-const IconSocial = ({ network, ...props }: SocialIconProps) => {
-  return <Icon id={`bnd-${network}`} {...props} />
+import { getShape } from './components/helpers'
+
+const IconSocial = ({
+  network,
+  size,
+  background,
+  shape,
+  ...props
+}: SocialIconProps) => {
+  const { wrapperProps, reducedIconSize } = getShape(size, background, shape)
+
+  const shappedIcon = createElement(
+    'span',
+    ...wrapperProps,
+    <Icon id={`bnd-${network}`} size={reducedIconSize} {...props} />
+  )
+
+  return shappedIcon
 }
 
 IconSocial.propTypes = {
   /** Social network id */
   network: PropTypes.string.isRequired,
+  /** Background of the shape */
+  background: PropTypes.string,
   ...proptypes,
 }
 

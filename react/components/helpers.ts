@@ -1,5 +1,5 @@
 import { find, propEq, contains } from 'ramda'
-import { ORIENTATIONS, STATES, TYPES } from './enhancements'
+import { ORIENTATIONS, STATES, TYPES, SHAPES } from './enhancements'
 
 /**
  * Get the modifer from any collection matching the rule collection{id, modifier}
@@ -41,3 +41,25 @@ export const getType = (orientation?: string, supported?: string) =>
 
 export const getState = (orientation?: string, supported?: string) =>
   getEnhancement(STATES, orientation, supported)
+
+const REDUCTION_PERCENTAGE = 0.4
+const getReduction = (size: number) => size * REDUCTION_PERCENTAGE
+
+export const getShape = (
+  size: number,
+  background: string,
+  shape?: string,
+  supported?: string
+) => {
+  const modifiers = getEnhancement(SHAPES, shape, supported)
+  const reduction = getReduction(size)
+  const padding = reduction / 2
+  const reducedIconSize = size - reduction
+
+  const wrapperProps = [
+    { className: `${modifiers} flex` },
+    { style: { padding: padding, backgroundColor: background } },
+  ]
+
+  return { wrapperProps, reducedIconSize }
+}
