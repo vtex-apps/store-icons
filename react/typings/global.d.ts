@@ -14,11 +14,6 @@ interface EnhancedIconProps extends IconProps {
   readonly type?: string
 }
 
-interface SocialIconProps extends EnhancedIconProps {
-  readonly network: string
-  readonly background: string
-}
-
 interface Enhancement {
   id: string
   modifier: string

@@ -4,13 +4,12 @@ import Icon from './components/Icon'
 import { proptypes } from './components/propTypes'
 import { getShape } from './components/helpers'
 
-const IconSocial = ({
-  network,
-  size,
-  background,
-  shape,
-  ...props
-}: SocialIconProps) => {
+interface Props extends EnhancedIconProps {
+  readonly network: string
+  readonly background: string
+}
+
+const IconSocial = ({ network, size, background, shape, ...props }: Props) => {
   const { wrapperProps, reducedIconSize } = getShape(size, background, shape)
 
   const shappedIcon = createElement(

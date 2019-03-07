@@ -21,6 +21,12 @@ export const getSubset = (tokens: string, collection: Array<Enhancement>) => {
   return collection.filter((item: any) => contains(item.id, ids))
 }
 
+/**
+ * Get enhancement modifier
+ * @param enhancementList list of enhancements
+ * @param enhancement desired enhancement
+ * @param supported all supported enhancement list
+ */
 export const getEnhancement = (
   enhancementList: Array<Enhancement>,
   enhancement?: string,
@@ -33,24 +39,45 @@ export const getEnhancement = (
   return modifier
 }
 
+/**
+ * Get orientation modifier
+ * @param orientation desired orientation
+ * @param supported suported orientations
+ */
 export const getOrientation = (orientation?: string, supported?: string) =>
   getEnhancement(ORIENTATIONS, orientation, supported)
 
-export const getType = (orientation?: string, supported?: string) =>
-  getEnhancement(TYPES, orientation, supported)
+/**
+ * Get type modifier
+ * @param type desired type
+ * @param supported suported types
+ */
+export const getType = (type?: string, supported?: string) =>
+  getEnhancement(TYPES, type, supported)
 
-export const getState = (orientation?: string, supported?: string) =>
-  getEnhancement(STATES, orientation, supported)
+/**
+ * Get state modifier
+ * @param state desirend state
+ * @param supported suported states
+ */
+export const getState = (state?: string, supported?: string) =>
+  getEnhancement(STATES, state, supported)
 
-const REDUCTION_PERCENTAGE = 0.4
-const getReduction = (size: number) => size * REDUCTION_PERCENTAGE
-
+/**
+ * Get shape modifier
+ * @param size icon size
+ * @param background background color
+ * @param shape desired shape
+ * @param supported suported shapes
+ */
 export const getShape = (
   size: number,
   background: string,
   shape?: string,
   supported?: string
 ) => {
+  const REDUCTION_PERCENTAGE = 0.4
+  const getReduction = (size: number) => size * REDUCTION_PERCENTAGE
   const modifiers = getEnhancement(SHAPES, shape, supported)
   const reduction = getReduction(size)
   const padding = reduction / 2
