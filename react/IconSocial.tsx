@@ -1,8 +1,9 @@
-import React, { createElement } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
+
 import Icon from './components/Icon'
 import { proptypes } from './components/propTypes'
-import { getShape } from './components/helpers'
+import { getShape } from './utils/helpers'
 
 interface Props extends EnhancedIconProps {
   readonly network: string
@@ -12,13 +13,11 @@ interface Props extends EnhancedIconProps {
 const IconSocial = ({ network, size, background, shape, ...props }: Props) => {
   const { wrapperProps, reducedIconSize } = getShape(size!, background, shape)
 
-  const shappedIcon = createElement(
-    'span',
-    ...wrapperProps,
-    <Icon id={`bnd-${network}`} size={reducedIconSize} {...props} />
+  return (
+    <span {...wrapperProps}>
+      <Icon id={`bnd-${network}`} size={reducedIconSize} {...props} />
+    </span>
   )
-
-  return shappedIcon
 }
 
 IconSocial.propTypes = {

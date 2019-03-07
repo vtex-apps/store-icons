@@ -2,7 +2,7 @@ import React from 'react'
 
 import Icon from './components/Icon'
 import { proptypes } from './components/propTypes'
-import { getType } from './components/helpers'
+import { getType } from './utils/helpers'
 
 const IconClose = ({ type, ...props }: EnhancedIconProps) => {
   const typeModifier = getType(type)

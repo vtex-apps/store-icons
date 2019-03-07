@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 import Icon from './components/Icon'
 import { proptypes } from './components/propTypes'
-import { getType, getState } from './components/helpers'
+import { getType, getState } from './utils/helpers'
 
 const IconEyeSight = ({ type, state, ...props }: EnhancedIconProps) => {
   const typeModifier = getType(type, 'filled, outline')
