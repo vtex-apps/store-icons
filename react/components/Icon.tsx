@@ -1,8 +1,7 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+
 import Use from './Use'
 import Svg from './Svg'
-import { proptypes } from './propTypes'
 
 const Icon = ({
   id,
@@ -27,12 +26,6 @@ Icon.defaultProps = {
   isActive: true,
   size: 16,
   viewBox: '0 0 16 16',
-}
-
-Icon.propTypes = {
-  /** Icon SVG id */
-  id: PropTypes.string.isRequired,
-  ...proptypes,
 }
 
 export default Icon

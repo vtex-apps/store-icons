@@ -1,5 +1,6 @@
 import React from 'react'
 import { render } from 'react-testing-library'
+
 import Icon from '../components/Icon'
 
 describe('Icon', () => {
