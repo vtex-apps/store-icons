@@ -1,10 +1,10 @@
 interface IconProps {
   readonly id: string
-  readonly isActive: boolean
-  readonly size: number
-  readonly viewBox: string
-  readonly activeClassName: string
-  readonly mutedClassName: string
+  readonly isActive?: boolean
+  readonly size?: number
+  readonly viewBox?: string
+  readonly activeClassName?: string
+  readonly mutedClassName?: string
 }
 
 interface EnhancedIconProps extends IconProps {

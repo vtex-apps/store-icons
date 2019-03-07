@@ -10,7 +10,7 @@ interface Props extends EnhancedIconProps {
 }
 
 const IconSocial = ({ network, size, background, shape, ...props }: Props) => {
-  const { wrapperProps, reducedIconSize } = getShape(size, background, shape)
+  const { wrapperProps, reducedIconSize } = getShape(size!, background, shape)
 
   const shappedIcon = createElement(
     'span',
@@ -27,6 +27,11 @@ IconSocial.propTypes = {
   /** Background of the shape */
   background: PropTypes.string,
   ...proptypes,
+}
+
+IconSocial.defautProps = {
+  size: 16,
+  viewBox: '0 0 16 16',
 }
 
 export default IconSocial
