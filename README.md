@@ -1,4 +1,5 @@
 # Store Icons
+[![Build Status](https://travis-ci.org/vtex-apps/store-icons.svg?branch=master)](https://travis-ci.org/vtex-apps/store-icons)
 
 ## Description
 
