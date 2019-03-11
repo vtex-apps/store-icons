@@ -6,7 +6,17 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [0.7.1] - 2019-03-11
+
 ### Changed
+
+- Typescript refactoring.
+- Added snapshot tests for `Icon`, `Svg` and `Use`.
+- Enhancements as functions.
+
+### Changed
+
 - Update the ICONPACK.md docs.
 
 ## [0.7.0] - 2019-02-27
