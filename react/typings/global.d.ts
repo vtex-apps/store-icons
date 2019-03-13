@@ -14,6 +14,10 @@ interface EnhancedIconProps extends IconProps {
   readonly type?: string
 }
 
+interface CaretProps extends EnhancedIconProps {
+  readonly thin?: boolean
+}
+
 interface Enhancement {
   id: string
   modifier: string

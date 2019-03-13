@@ -115,6 +115,8 @@ We use a series of prefixes to help us understand what an specific icon means.
 | ![](svg/nav-caret--left.svg)  | nav-caret--left | 
 | ![](svg/nav-caret--right.svg)  | nav-caret--right | 
 | ![](svg/nav-caret--up.svg)  | nav-caret--up | 
+| ![](svg/nav-thin-caret--left.svg)  | nav-thin-caret--left |
+| ![](svg/nav-thin-caret--right.svg)  | nav-thin-caret--right |
 | ![](svg/nav-arrow--left.svg)  | nav-arrow--left | 
 | ![](svg/nav-arrow--right.svg)  | nav-arrow--right | 
 | ![](svg/nav-home.svg)  | nav-home | 
