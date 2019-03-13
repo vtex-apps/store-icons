@@ -103,9 +103,9 @@ Some components support modifiers. These are props that define the icon type, or
 |           |      |             |
 
 ### Navigation
-| Component | Type | Orientation | State | Shape
-| :---:     |:---: | :---:       | :---: | :---:  
-| [IconCaret](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconCaret.js) | 🚫 | up \| down \| left \| right | 🚫| 🚫 
+| Component | Type | Orientation | State | Shape | Thin 
+| :---:     |:---: | :---:       | :---: | :---: | :---:
+| [IconCaret](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconCaret.js) | 🚫 | up \| down \| left \| right | 🚫| 🚫 | true \| false
 
 
 ### Status Indicators

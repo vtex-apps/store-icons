@@ -1,10 +1,15 @@
 import React from 'react'
+import classnames from 'classnames'
 import Icon from './components/Icon'
 import { getOrientation } from './utils/helpers'
 
-const IconCaret = ({ orientation, ...props }: EnhancedIconProps) => {
+const IconCaret = ({ orientation, thin = false, ...props }: CaretProps) => {
   const orientationModifier = getOrientation(orientation)
-  return <Icon id={`nav-caret${orientationModifier}`} {...props} />
+  const id: string = classnames({
+    [`nav-thin-caret${orientationModifier}`]: thin,
+    [`nav-caret${orientationModifier}`]: !thin
+  })
+  return <Icon id={id} {...props} />
 }
 
 export default IconCaret

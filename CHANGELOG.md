@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.7.2] - 2019-03-13
+### Added
+- `thin` prop to `IconCaret` component.
+
 ## [0.7.1] - 2019-03-11
 
 ### Changed
