@@ -114,6 +114,8 @@ Some components support modifiers. These are props that define the icon type, or
 | Component | Type | Orientation | State | Shape
 | :---:     |:---: | :---:       | :---: | :---:     
 | [IconClose](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconClose.js) | solid \| outline | 🚫 | 🚫 | 🚫 
+| [IconCheck](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconCheck.js) | solid \| outline \| line | 🚫 | 🚫 | 🚫 
+
 
 ## Testing
 
