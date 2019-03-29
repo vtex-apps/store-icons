@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.7.3] - 2019-03-29
+### Added
+- Added `IconHeart`.
+
 ## [0.7.2] - 2019-03-13
 ### Added
 - `thin` prop to `IconCaret` component.

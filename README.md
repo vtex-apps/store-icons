@@ -96,6 +96,7 @@ Some components support modifiers. These are props that define the icon type, or
 | [IconGallery](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconGallery.js) | 🚫 | 🚫 | 🚫 | 🚫 
 | [IconRemove](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconRemove.js) | 🚫 | 🚫 | 🚫 | 🚫 
 | [IconSwap](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSwap.js) | 🚫 | 🚫 | 🚫 | 🚫 
+| [IconHeart](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconHeart.js) | 🚫 | 🚫 | 🚫 | 🚫 
 
 ### Informational
 | Component | Type | Orientation | State | Shape
