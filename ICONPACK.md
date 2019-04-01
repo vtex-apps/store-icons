@@ -65,6 +65,7 @@ We use a series of prefixes to help us understand what an specific icon means.
 | ![](svg/hpa-save.svg)  | hpa-save | 
 | ![](svg/hpa-search.svg)  | hpa-search | 
 | ![](svg/hpa-hamburguer-menu.svg)  | hpa-hamburguer-menu | 
+| ![](svg/hpa-location-marker.svg)  | hpa-location-marker | 
 | ![](svg/hpa-telemarketing.svg)  | hpa-telemarketing | 
 | ![](svg/mpa-filter-settings.svg)  | mpa-filter-settings | 
 | ![](svg/mpa-single-item.svg)  | mpa-single-item | 

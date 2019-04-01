@@ -84,6 +84,7 @@ Some components support modifiers. These are props that define the icon type, or
 | [IconSearch](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSearch.js) | 🚫 | 🚫 | 🚫 | 🚫 
 | [IconDelete](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconDelete.js) | 🚫 | 🚫 | 🚫 | 🚫 
 | [IconMenu](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconMenu.js) | 🚫 | 🚫 | 🚫 | 🚫 
+| [IconLocationMarker](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconLocationMarker.js) | 🚫 | 🚫 | 🚫 | 🚫 
 
 ### Middle Priority Actions
 | Component | Type | Orientation | State | Shape
