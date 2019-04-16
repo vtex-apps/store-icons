@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.9.0] - 2019-04-16
+### Added 
+- Add `IconCheck` component. 
+
 ## [0.8.0] - 2019-04-01
 ### Added
 - Added `IconLocationMarker`.
