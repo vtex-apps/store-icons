@@ -82,54 +82,54 @@ Some components support modifiers. These are props that define the icon type, or
 
 ### Brand
 
-|                                          Component                                           | Type | Orientation | State |            Shape            |
-| :------------------------------------------------------------------------------------------: | :--: | :---------: | :---: | :-------------------------: |
-| [IconSocial](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSocial.js) |  🚫  |     🚫      |  🚫   | square \| rounded \| circle |
+| Component | Type | Orientation | State| Shape |
+| --- | --- | --- | --- | --- |
+| [IconSocial](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSocial.js) | 🚫 | 🚫 | 🚫 | square \| rounded \| circle |
 
 ### High Priority Actions
 
-|                                                  Component                                                   | Type | Orientation | State | Shape |
-| :----------------------------------------------------------------------------------------------------------: | :--: | :---------: | :---: | :---: |
-|      [IconArrowBack](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconArrowBack.js)      |  🚫  |     🚫      |  🚫   |  🚫   |
-| [IconAssistantSales](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconAssistantSales.js) |  🚫  |     🚫      |  🚫   |  🚫   |
-|        [IconProfile](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconProfile.js)        |  🚫  |     🚫      |  🚫   |  🚫   |
-|           [IconCart](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconCart.js)           |  🚫  |     🚫      |  🚫   |  🚫   |
-|         [IconSearch](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSearch.js)         |  🚫  |     🚫      |  🚫   |  🚫   |
-|         [IconDelete](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconDelete.js)         |  🚫  |     🚫      |  🚫   |  🚫   |
-|           [IconMenu](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconMenu.js)           |  🚫  |     🚫      |  🚫   |  🚫   |
-| [IconLocationMarker](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconLocationMarker.js) |  🚫  |     🚫      |  🚫   |  🚫   |
+| Component | Type | Orientation | State| Shape |
+| --- | --- | --- | --- | --- |
+| [IconArrowBack](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconArrowBack.js) |  🚫 | 🚫 | 🚫 | 🚫 |
+| [IconAssistantSales](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconAssistantSales.js) | 🚫 | 🚫 | 🚫 | 🚫 |
+| [IconProfile](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconProfile.js) | 🚫 | 🚫 |  🚫 | 🚫 |
+| [IconCart](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconCart.js) | 🚫 | 🚫 | 🚫 | 🚫 |
+| [IconSearch](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSearch.js)  |  🚫  | 🚫 | 🚫 | 🚫 |
+| [IconDelete](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconDelete.js) | 🚫 | 🚫 | 🚫 | 🚫 |
+| [IconMenu](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconMenu.js) | 🚫 | 🚫 | 🚫 | 🚫 |
+| [IconLocationMarker](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconLocationMarker.js) |  🚫  |  🚫 | 🚫 | 🚫 |
 
 ### Middle Priority Actions
 
-|                                              Component                                               |           Type            | Orientation |   State   | Shape |
-| :--------------------------------------------------------------------------------------------------: | :-----------------------: | :---------: | :-------: | :---: |
-|   [IconEyesight](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconEyesight.js)   |     filled \| outline     |     🚫      | on \| off |  🚫   |
-|      [IconMinus](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconMinus.js)      | filled \| outline \| line |     🚫      |    🚫     |  🚫   |
-|       [IconPlus](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconPlus.js)       | filled \| outline \| line |     🚫      |    🚫     |  🚫   |
-| [IconSingleItem](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSingleItem.js) |            🚫             |     🚫      |    🚫     |  🚫   |
-|       [IconList](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconList.js)       |            🚫             |     🚫      |    🚫     |  🚫   |
-|    [IconGallery](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconGallery.js)    |            🚫             |     🚫      |    🚫     |  🚫   |
-|     [IconRemove](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconRemove.js)     |            🚫             |     🚫      |    🚫     |  🚫   |
-|       [IconSwap](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSwap.js)       |            🚫             |     🚫      |    🚫     |  🚫   |
+| Component | Type | Orientation | State| Shape |
+| --- | --- | --- | --- | --- |
+| [IconEyesight](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconEyesight.js) | filled \| outline | 🚫 | on \| off | 🚫 |
+| [IconMinus](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconMinus.js)      | filled \| outline \| line | 🚫 | 🚫 | 🚫 |
+| [IconPlus](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconPlus.js) | filled \| outline \| line | 🚫 | 🚫 | 🚫 |
+| [IconSingleItem](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSingleItem.js) | 🚫 | 🚫 | 🚫 | 🚫 |
+| [IconList](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconList.js) | 🚫 | 🚫 | 🚫 | 🚫 |
+| [IconGallery](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconGallery.js) | 🚫 | 🚫 | 🚫 | 🚫 |
+| [IconRemove](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconRemove.js) | 🚫 |     🚫 |  🚫 | 🚫 |
+| [IconSwap](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSwap.js) | 🚫 | 🚫 | 🚫 | 🚫 |
+| [IconHeart](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconHeart.js) |            🚫 | 🚫 | 🚫 | 🚫 |
 
 ### Informational
 
-| Component | Type | Orientation | State | Shape |
-| :-------: | :--: | :---------: | :---: | :---: |
-|           |      |             |
+| Component | Type | Orientation | State| Shape |
+| --- | --- | --- | --- | --- |
 
 ### Navigation
 
-|                                         Component                                          | Type |         Orientation         | State | Shape |     Thin      |
-| :----------------------------------------------------------------------------------------: | :--: | :-------------------------: | :---: | :---: | :-----------: |
-| [IconCaret](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconCaret.js) |  🚫  | up \| down \| left \| right |  🚫   |  🚫   | true \| false |
+| Component | Type | Orientation | State| Shape |
+| --- | --- | --- | --- | --- |
+| [IconCaret](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconCaret.js) | 🚫 | up \| down \| left \| right | 🚫 | 🚫 | true \| false |
 
 ### Status Indicators
 
-|                                         Component                                          |           Type            | Orientation | State | Shape |
-| :----------------------------------------------------------------------------------------: | :-----------------------: | :---------: | :---: | :---: |
-| [IconClose](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconClose.js) |     filled \| outline     |     🚫      |  🚫   |  🚫   |
-| [IconCheck](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconCheck.js) | filled \| outline \| line |     🚫      |  🚫   |  🚫   |
+| Component | Type | Orientation | State| Shape |
+| --- | --- | --- | --- | --- |
+| [IconClose](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconClose.js) | filled \| outline | 🚫 | 🚫 | 🚫 |
+| [IconCheck](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconCheck.js) | filled \| outline \| line | 🚫 | 🚫 | 🚫 |
 
 ## Generic Icon
 
