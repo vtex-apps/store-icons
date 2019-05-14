@@ -22,6 +22,7 @@ All Store icons components.
   - [Table of Contents](#table-of-contents)
   - [Concept](#concept)
   - [Usage](#usage)
+    - [Dedicated Icon](#dedicated-icon)
     - [Generic Icon](#generic-icon)
   - [Icons](#icons)
     - [Props](#props)
@@ -33,6 +34,9 @@ All Store icons components.
       - [Navigation](#navigation)
       - [Status Indicators](#status-indicators)
   - [Customize](#customize)
+    - [Overwriting the default IconPack](#overwriting-the-default-iconpack) 
+    - [Nomenclature](#nomenclature)
+      - [Icon Intention](#icon-intention)
   - [Troubleshooting](#troubleshooting)
   - [Contributing](#contributing)
   - [Tests](#tests)
@@ -43,24 +47,27 @@ This project is based on [SVG fragment identifiers](https://css-tricks.com/svg-f
 
 ## Usage
 
-To use an icon of this project follows the steps below:
+## Usage
 
-1. Add into the dependencies of your `manifest.json` and use it like an npm module.
+First of all, add into the dependencies of your `manifest.json` and use it as an npm module:
 
-   ```json
-   "dependencies": {
-    "vtex.store-icons": "0.x"
-   }
-   ```
+```json
+"dependencies": {
+  "vtex.store-icons": "0.x"
+}
+```
 
-2. Import and use it into your code, for example:
-   ```js
-   import { IconMenu } from 'vtex.store-icons'
-   
-   const YourComponent = props => (   
-    <IconMenu />
-   )
-   ```
+### Dedicated Icon
+
+Import the desired icon and use it into your code, for example:
+
+```js
+import { IconMenu } from 'vtex.store-icons'
+
+const YourComponent = props => (
+  <IconMenu />
+)
+```
 
 You can see [here](#icon-list) a list of every available icon.
 
@@ -73,10 +80,10 @@ For example:
 ```js
 import { Icon } from 'vtex.store-icons'
 
-const YourComponent = props => (
-  <Icon id="hpa-cart"/>
-)
+const YourComponent = props => <Icon id="hpa-cart" />
 ```
+
+⚠️ This component is meant to be used on icons there aren't common throughout the store. Choose [`dedicated`](#dedicated-icon) components whenever possible.
 
 ## Icons
 
@@ -152,6 +159,27 @@ Some components support modifiers. These are props that define the icon type, or
 
 ## Customize
 
+In the [usage](#usage) section, we discuss two ways of using icons. These ways extend to customization, so, prefer to change an existing Icon so that you can use the [dedicated](#dedicated-icon) version. You can check how to override and name icons below.
+
+### Overwriting the default IconPack
+
+As mentioned before, all icon IDs are stored at the [iconpack.svg](https://github.com/vtex-apps/store-icons/blob/master/ICONPACK.md) file. You can overwrite the default one by:
+
+1. On your [`store-theme`](https://github.com/vtex-apps/store-theme/tree/master/styles) create a new folder called `iconpacks`
+
+2. Create a file called `iconpack.svg`
+
+3. Declare your icon IDs (use the default `iconpack` as an example in how to do that properly).
+
+### Nomenclature
+
+The naming convention is: [`intention`](#icon-intention)-[`id`](#icon-list)--[`?modifiers`](#enhanced-props)
+
+Where the `modifiers` follows the rule: 
+`?type`--`?orientation`--`?state`--`?shape`
+
+**🤓 ? stands for optional inputs**
+
 #### Icon Intention
 `bnd` **Brand** - Display logos, brands or advertisements.
 
@@ -164,8 +192,6 @@ Some components support modifiers. These are props that define the icon type, or
 `nav` **Navigation** - Actions that triggers navigation.
 
 `sti` **Status indicators** - Indicates the current item/component semantic status.
-
-#### Nomenclature
 
 
 ## Troubleshooting
