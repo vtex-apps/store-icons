@@ -47,8 +47,6 @@ This project is based on [SVG fragment identifiers](https://css-tricks.com/svg-f
 
 ## Usage
 
-## Usage
-
 First of all, add into the dependencies of your `manifest.json` and use it as an npm module:
 
 ```json
