@@ -88,6 +88,7 @@ const YourComponent = props => <Icon id="hpa-cart" />
 ### Props
 
 Any icon can receive the following props:
+
 | Property | Description | Type | Default value |
 | --- | --- | --- | --- |
 | size | Desired size | `Number` | 16 | 
