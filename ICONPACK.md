@@ -72,6 +72,7 @@ We use a series of prefixes to help us understand what an specific icon means.
 | ![](svg/mpa-gallery.svg)  | mpa-gallery | 
 | ![](svg/mpa-list-items.svg)  | mpa-list-items | 
 | ![](svg/mpa-heart.svg)  | mpa-heart | 
+| ![](svg/mpa-globe.svg)  | mpa-globe | 
 | ![](svg/mpa-clone--outline.svg)  | mpa-clone--outline | 
 | ![](svg/mpa-clone--filled.svg)  | mpa-clone--filled | 
 | ![](svg/mpa-edit--outline.svg)  | mpa-edit--outline | 
