@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.11.1] - 2019-05-28
+### Changed
+- Change loading icon animation from SMIL-based to CSS-based, for performance.
+
 ## [0.11.0] - 2019-05-28
 ### Added
 - Added `IconGlobe`.
