@@ -6,6 +6,7 @@
   "description": "All icons that store apps use.",
   "mustUpdateAt": "2020-01-30",
   "scripts": {
+    "prereleasy": "yarn && node docs/script/scrap-svg.js",
     "postreleasy": "vtex publish --verbose"
   },
   "builders": {
