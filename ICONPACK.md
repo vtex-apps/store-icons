@@ -108,6 +108,7 @@ We use a series of prefixes to help us understand what an specific icon means.
 | ![](docs/mpa-store.svg)  | mpa-store | 
 | ![](docs/mpa-angle--down.svg)  | mpa-angle--down | 
 | ![](docs/mpa-angle--up.svg)  | mpa-angle--up | 
+| ![](docs/mpa-location-input.svg)  | mpa-location-input | 
 | ![](docs/inf-star.svg)  | inf-star | 
 | ![](docs/inf-help--outline.svg)  | inf-help--outline | 
 | ![](docs/inf-help--filled.svg)  | inf-help--filled | 
