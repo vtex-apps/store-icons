@@ -282,20 +282,6 @@
       <path d="M15,7H1C0.4,7,0,7.4,0,8s0.4,1,1,1h14c0.6,0,1-0.4,1-1S15.6,7,15,7z" fill="currentColor"/>
     </g>
     <g id="sti-loading">
-      <style>
-        @keyframes sti-loading-rotate {
-          0% {
-            transform: rotate(0);
-          }
-          100% {
-            transform: rotate(360deg);
-          }
-        }
-        .sti-loading-rotate {
-          transform-origin: 50px 50px;
-          animation: sti-loading-rotate 0.7s infinite linear;
-        }
-      </style>
       <circle cx="50" opacity="0.4" cy="50" fill="none" stroke="#000000" r="40" class="c-muted-1" stroke-width="14"></circle>
       <circle cx="50" cy="50" fill="none" stroke="#000000" r="40" stroke-dasharray="60 900" stroke-width="12" stroke-linecap="round" class="sti-loading-rotate"></circle>
     </g>

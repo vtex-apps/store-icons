@@ -3,6 +3,8 @@ import React from 'react'
 import Use from './Use'
 import Svg from './Svg'
 
+import './icon.global.css'
+
 const Icon = ({
   id,
   isActive,
