@@ -38,3 +38,4 @@ lib
 .eslintrc
 package-lock.json
 *.orig
+yarn-error.log
