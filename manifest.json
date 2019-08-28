@@ -11,7 +11,8 @@
   },
   "builders": {
     "react": "3.x",
-    "styles": "1.x"
+    "styles": "1.x",
+    "docs": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
