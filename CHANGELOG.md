@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.13.2] - 2019-08-29
+
 ## [0.13.1] - 2019-08-19
 ### Fixed
 - Icon pack svg attributes in camel case (e.g. `strokeWidth` instead of `stroke-width`).
