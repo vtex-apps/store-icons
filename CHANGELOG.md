@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Chore
+- Rebuild to enable lazy evaluation of store-icons entrypoints.
 
 ## [0.13.3] - 2019-09-20
 
@@ -40,8 +42,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Add `Icon` component.
 
 ## [0.9.0] - 2019-04-16
-### Added 
-- Add `IconCheck` component. 
+### Added
+- Add `IconCheck` component.
 
 ## [0.8.0] - 2019-04-01
 ### Added
