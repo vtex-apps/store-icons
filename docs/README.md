@@ -34,7 +34,7 @@ All Store icons components.
       - [Navigation](#navigation)
       - [Status Indicators](#status-indicators)
   - [Customize](#customize)
-    - [Overwriting the default IconPack](#overwriting-the-default-iconpack) 
+    - [Overwriting the default IconPack](#overwriting-the-default-iconpack)
     - [Nomenclature](#nomenclature)
       - [Icon Intention](#icon-intention)
   - [Troubleshooting](#troubleshooting)
@@ -55,6 +55,8 @@ First of all, add into the dependencies of your `manifest.json` and use it as an
 }
 ```
 
+There are two different ways to use the icons available here. If you're developing a store's theme, you should use the `icon` block, which behaves just like any other block and expects to receive the props exposed by its [API](#props). But if you're developing custom components and want to use icons defined here, just follow the instructions below.
+
 ### Dedicated Icon
 
 Import the desired icon and use it into your code, for example:
@@ -62,9 +64,7 @@ Import the desired icon and use it into your code, for example:
 ```js
 import { IconMenu } from 'vtex.store-icons'
 
-const YourComponent = props => (
-  <IconMenu />
-)
+const YourComponent = props => <IconMenu />
 ```
 
 You can see [here](#icon-list) a list of every available icon.
@@ -89,12 +89,13 @@ const YourComponent = props => <Icon id="hpa-cart" />
 
 Any icon can receive the following props:
 
-| Property | Description | Type | Default value |
-| --- | --- | --- | --- |
-| size | Desired size | `Number` | 16 | 
-| isActive | desc | `Boolean` | true |
-| activeClassName | The className it should have if active | `String` | 🚫 |
-| mutedClassName | The className it should have if not active | `String` | 🚫 |
+| Property        | Description                                | Type      | Default value |
+| --------------- | ------------------------------------------ | --------- | ------------- |
+| id              | The ID for the desired icon                | `String`  | ''            |
+| size            | Desired size                               | `Number`  | 16            |
+| isActive        | desc                                       | `Boolean` | true          |
+| activeClassName | The className it should have if active     | `String`  | 🚫            |
+| mutedClassName  | The className it should have if not active | `String`  | 🚫            |
 
 Obs: **...props**: It is important to notice that any other `<svg>` prop passed will work with an icon as well.
 
@@ -102,60 +103,61 @@ Obs: **...props**: It is important to notice that any other `<svg>` prop passed 
 
 Some components support modifiers. These are props that define the icon type, orientation, state or shape.
 
-| Modifier | Possible values |
-| --- | --- |
-| type | `filled` `line` `outline` |
-| orientation | `up` `down` `left` `right` |
-| state | `on` `off` |
-| shape | `square` `rounded` `circle` |
+| Modifier    | Possible values             |
+| ----------- | --------------------------- |
+| type        | `filled` `line` `outline`   |
+| orientation | `up` `down` `left` `right`  |
+| state       | `on` `off`                  |
+| shape       | `square` `rounded` `circle` |
 
 ### Icon List
 
 #### Brand
-| Component | id | Type | Orientation | State| Shape |
-| --- | --- | --- | --- | --- | --- |
-| [IconSocial](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSocial.js) | `social` | 🚫 | 🚫 | 🚫 | square \| rounded \| circle |
+
+| Component                                                                                    | id       | Type | Orientation | State | Shape                       |
+| -------------------------------------------------------------------------------------------- | -------- | ---- | ----------- | ----- | --------------------------- |
+| [IconSocial](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSocial.js) | `social` | 🚫   | 🚫          | 🚫    | square \| rounded \| circle |
 
 #### High Priority Actions
-| Component | id | Type | Orientation | State| Shape |
-| --- | --- | --- | --- | --- | --- |
-| [IconArrowBack](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconArrowBack.js) | `arrow-back` |  🚫 | 🚫 | 🚫 | 🚫 |
-| [IconAssistantSales](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconAssistantSales.js) |`assistant-sales` | 🚫 | 🚫 | 🚫 | 🚫 |
-| [IconProfile](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconProfile.js) | `profile` | 🚫 | 🚫 |  🚫 | 🚫 |
-| [IconCart](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconCart.js) | `cart` | 🚫 | 🚫 | 🚫 | 🚫 |
-| [IconSearch](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSearch.js)  | `search` | 🚫  | 🚫 | 🚫 | 🚫 |
-| [IconDelete](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconDelete.js) | `delete` | 🚫 | 🚫 | 🚫 | 🚫 |
-| [IconMenu](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconMenu.js) | `menu` | 🚫 | 🚫 | 🚫 | 🚫 |
-| [IconLocationMarker](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconLocationMarker.js) | `location-marker` | 🚫  |  🚫 | 🚫 | 🚫 |
 
-#### Middle Priority Actions
-| Component | id | Type | Orientation | State| Shape |
-| --- | --- | --- | --- | --- | --- |
-| [IconEyesight](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconEyesight.js) | `eyesight` | filled \| outline | 🚫 | on \| off | 🚫 |
-| [IconMinus](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconMinus.js) | `minus` | filled \| outline \| line | 🚫 | 🚫 brands
-| [IconPlus](https://github.com/vtex-apps/store-icons/blobrandseact/IconPlus.js) | `plus` | filled \| outline \| line | 🚫 | 🚫 | 🚫 |brands
-| [IconSingleItem](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSingleItem.js) | `single-item` | 🚫 | 🚫 | 🚫 | 🚫 |
-| [IconList](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconList.js) | `list` | 🚫 | 🚫 | 🚫 | 🚫 |
-| [IconGallery](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconGallery.js) | `gallery` | 🚫 | 🚫 | 🚫 | 🚫 |
-| [IconRemove](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconRemove.js) | `remove` | 🚫 |     🚫 |  🚫 | 🚫 |
-| [IconSwap](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSwap.js) | `swap` | 🚫 | 🚫 | 🚫 | 🚫 |
-| [IconHeart](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconHeart.js) | `heart` | 🚫 | 🚫 | 🚫 | 🚫 |
-| [IconGlobe](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconGlobe.js) | `globe` | 🚫 | 🚫 | 🚫 | 🚫 |
+| Component                                                                                                    | id                | Type | Orientation | State | Shape |
+| ------------------------------------------------------------------------------------------------------------ | ----------------- | ---- | ----------- | ----- | ----- |
+| [IconArrowBack](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconArrowBack.js)           | `arrow-back`      | 🚫   | 🚫          | 🚫    | 🚫    |
+| [IconAssistantSales](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconAssistantSales.js) | `assistant-sales` | 🚫   | 🚫          | 🚫    | 🚫    |
+| [IconProfile](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconProfile.js)               | `profile`         | 🚫   | 🚫          | 🚫    | 🚫    |
+| [IconCart](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconCart.js)                     | `cart`            | 🚫   | 🚫          | 🚫    | 🚫    |
+| [IconSearch](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSearch.js)                 | `search`          | 🚫   | 🚫          | 🚫    | 🚫    |
+| [IconDelete](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconDelete.js)                 | `delete`          | 🚫   | 🚫          | 🚫    | 🚫    |
+| [IconMenu](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconMenu.js)                     | `menu`            | 🚫   | 🚫          | 🚫    | 🚫    |
+| [IconLocationMarker](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconLocationMarker.js) | `location-marker` | 🚫   | 🚫          | 🚫    | 🚫    |
 
-#### Informational
-| Component | id | Type | Orientation | State| Shape |
-| --- | --- | --- | --- | --- | --- |
+#### Medium Priority Actions
+
+| Component                                                                                            | id            | Type                      | Orientation | State     | Shape |
+| ---------------------------------------------------------------------------------------------------- | ------------- | ------------------------- | ----------- | --------- | ----- |
+| [IconEyesight](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconEyesight.js)     | `eyesight`    | filled \| outline         | 🚫          | on \| off | 🚫    |
+| [IconMinus](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconMinus.js)           | `minus`       | filled \| outline \| line | 🚫          | 🚫 brands |
+| [IconPlus](https://github.com/vtex-apps/store-icons/blobrandseact/IconPlus.js)                       | `plus`        | filled \| outline \| line | 🚫          | 🚫        | 🚫    | brands |
+| [IconSingleItem](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSingleItem.js) | `single-item` | 🚫                        | 🚫          | 🚫        | 🚫    |
+| [IconList](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconList.js)             | `list`        | 🚫                        | 🚫          | 🚫        | 🚫    |
+| [IconGallery](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconGallery.js)       | `gallery`     | 🚫                        | 🚫          | 🚫        | 🚫    |
+| [IconRemove](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconRemove.js)         | `remove`      | 🚫                        | 🚫          | 🚫        | 🚫    |
+| [IconSwap](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSwap.js)             | `swap`        | 🚫                        | 🚫          | 🚫        | 🚫    |
+| [IconHeart](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconHeart.js)           | `heart`       | 🚫                        | 🚫          | 🚫        | 🚫    |
+| [IconGlobe](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconGlobe.js)           | `globe`       | 🚫                        | 🚫          | 🚫        | 🚫    |
 
 #### Navigation
-| Component | id | Type | Orientation | State| Shape |
-| --- | --- | --- | --- | --- | --- |
-| [IconCaret](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconCaret.js) | `caret` | 🚫 | up \| down \| left \| right | 🚫 | 🚫 | true \| false |
+
+| Component                                                                                  | id      | Type | Orientation                 | State | Shape |
+| ------------------------------------------------------------------------------------------ | ------- | ---- | --------------------------- | ----- | ----- |
+| [IconCaret](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconCaret.js) | `caret` | 🚫   | up \| down \| left \| right | 🚫    | 🚫    | true \| false |
 
 #### Status Indicators
-| Component | id | Type | Orientation | State| Shape |
-| --- | --- | --- | --- | --- | --- |
-| [IconClose](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconClose.js) | `close` | filled \| outline | 🚫 | 🚫 | 🚫 |
-| [IconCheck](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconCheck.js) | `check` | filled \| outline \| line | 🚫 | 🚫 | 🚫 |
+
+| Component                                                                                  | id      | Type                      | Orientation | State | Shape |
+| ------------------------------------------------------------------------------------------ | ------- | ------------------------- | ----------- | ----- | ----- |
+| [IconClose](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconClose.js) | `close` | filled \| outline         | 🚫          | 🚫    | 🚫    |
+| [IconCheck](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconCheck.js) | `check` | filled \| outline \| line | 🚫          | 🚫    | 🚫    |
 
 ## Customize
 
@@ -175,24 +177,24 @@ As mentioned before, all icon IDs are stored at the [iconpack.svg](https://githu
 
 The naming convention is: [`intention`](#icon-intention)-[`id`](#icon-list)--[`?modifiers`](#enhanced-props)
 
-Where the `modifiers` follows the rule: 
+Where the `modifiers` follows the rule:
 `?type`--`?orientation`--`?state`--`?shape`
 
 **🤓 ? stands for optional inputs**
 
 #### Icon Intention
+
 `bnd` **Brand** - Display logos, brands or advertisements.
 
 `hpa` **High priority actions** - Actions that are important to the global context.
 
 `mpa` **Mild priority actions** - Actions that are important only to the current component context.
 
-`inf` **Informational** - Represents information display or actions that, when triggered, reveal further details about the current context. 
+`inf` **Informational** - Represents information display or actions that, when triggered, reveal further details about the current context.
 
 `nav` **Navigation** - Actions that triggers navigation.
 
 `sti` **Status indicators** - Indicates the current item/component semantic status.
-
 
 ## Troubleshooting
 
@@ -200,7 +202,7 @@ You can check if others are passing through similar issues [here](https://github
 
 ## Contributing
 
-Check it out [how to contribute](https://github.com/vtex-apps/awesome-io#contributing) with this project. 
+Check it out [how to contribute](https://github.com/vtex-apps/awesome-io#contributing) with this project.
 
 ## Tests
 
