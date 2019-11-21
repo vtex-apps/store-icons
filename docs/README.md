@@ -55,7 +55,7 @@ First of all, add into the dependencies of your `manifest.json` and use it as an
 }
 ```
 
-There are two different ways to use the icons available here. If you're developing a store's theme, you should use the `icon` block, which behaves just like any other block and expects to receive the props exposed by its [API](#props). But if you're developing custom components and want to use icons defined here, just follow the instructions below.
+There are two different ways to use the icons available here. If you're developing a store's theme, you should use the `icon` block for the icon you want to render, which behaves just like any other block and expects to receive the props exposed by its [API](#props). But if you're developing custom components and want to use icons defined here, just follow the instructions below.
 
 ### Dedicated Icon
 
