@@ -1,0 +1,86 @@
+{
+  "icon": {
+    "component": "Icon"
+  },
+  "icon-arrow-back": {
+    "component": "IconArrowBack"
+  },
+  "icon-assistant-sales": {
+    "component": "IconAssistantSales"
+  },
+  "icon-caret": {
+    "component": "IconCaret"
+  },
+  "icon-cart": {
+    "component": "IconCart"
+  },
+  "icon-check": {
+    "component": "IconCheck"
+  },
+  "icon-close": {
+    "component": "IconClose"
+  },
+  "icon-delete": {
+    "component": "IconDelete"
+  },
+  "icon-equals": {
+    "component": "IconEquals"
+  },
+  "icon-eye-sight": {
+    "component": "IconEyeSight"
+  },
+  "icon-filter": {
+    "component": "IconFilter"
+  },
+  "icon-globe": {
+    "component": "IconGlobe"
+  },
+  "icon-grid": {
+    "component": "IconGrid"
+  },
+  "icon-heart": {
+    "component": "IconHeart"
+  },
+  "icon-home": {
+    "component": "IconHome"
+  },
+  "icon-inline-grid": {
+    "component": "IconInlineGrid"
+  },
+  "icon-location-input": {
+    "component": "IconLocationInput"
+  },
+  "icon-location-marker": {
+    "component": "IconLocationMarker"
+  },
+  "icon-menu": {
+    "component": "IconMenu"
+  },
+  "icon-minus": {
+    "component": "IconMinus"
+  },
+  "icon-plus": {
+    "component": "IconPlus"
+  },
+  "icon-profile": {
+    "component": "IconProfile"
+  },
+  "icon-remove": {
+    "component": "IconRemove"
+  },
+  "icon-search": {
+    "component": "IconSearch"
+  },
+  "icon-single-grid": {
+    "component": "IconSingleGrid"
+  },
+  "icon-social": {
+    "component": "IconSocial"
+  },
+  "icon-star": {
+    "component": "IconStar"
+  },
+  "icon-swap": {
+    "component": "IconSwap"
+  }
+}

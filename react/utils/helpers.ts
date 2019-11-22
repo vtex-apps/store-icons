@@ -1,12 +1,12 @@
-import { find, propEq, contains } from 'ramda'
-import { ORIENTATIONS, STATES, TYPES, SHAPES } from './enhancements'
+import { contains, find, propEq } from 'ramda'
+import { ORIENTATIONS, SHAPES, STATES, TYPES } from './enhancements'
 
 /**
  * Get the modifer from any collection matching the rule collection{id, modifier}
  * @param {*} id
  * @param {*} collection
  */
-export const getModifier = (collection: Array<Enhancement>, id?: string) => {
+export const getModifier = (collection: Enhancement[], id?: string) => {
   const foundItem = find(propEq('id', id), collection)
   return !!foundItem ? foundItem.modifier : id
 }
@@ -16,7 +16,7 @@ export const getModifier = (collection: Array<Enhancement>, id?: string) => {
  * @param {*} tokens
  * @param {*} collection
  */
-export const getSubset = (tokens: string, collection: Array<Enhancement>) => {
+export const getSubset = (tokens: string, collection: Enhancement[]) => {
   const ids = tokens.split(',').join('')
   return collection.filter((item: any) => contains(item.id, ids))
 }
@@ -28,7 +28,7 @@ export const getSubset = (tokens: string, collection: Array<Enhancement>) => {
  * @param supported all supported enhancement list
  */
 export const getEnhancement = (
-  enhancementList: Array<Enhancement>,
+  enhancementList: Enhancement[],
   enhancement?: string,
   supported?: string
 ) => {
@@ -85,7 +85,7 @@ export const getShape = (
 
   const wrapperProps = [
     { className: `${modifiers} flex` },
-    { style: { padding: padding, backgroundColor: background } },
+    { style: { padding, backgroundColor: background } },
   ]
 
   return { wrapperProps, reducedIconSize }
