@@ -17,3 +17,22 @@ exports[`Icon should match snapshot 1`] = `
   </svg>
 </DocumentFragment>
 `;
+
+exports[`Icon should match snapshot 2`] = `
+<DocumentFragment>
+  <svg
+    fill="pink"
+    height="30"
+    viewBox="0 0 16 16"
+    width="30"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+  >
+    <use
+      href="#tst-snapshot"
+      xlink:href="#tst-snapshot"
+    />
+  </svg>
+</DocumentFragment>
+`;
+

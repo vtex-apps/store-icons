@@ -8,4 +8,8 @@ describe('Icon', () => {
     const component = render(<Icon id="tst-snapshot" size={20} />).asFragment()
     expect(component).toMatchSnapshot()
   })
+  it('should match snapshot', () => {
+    const component = render(<Icon id="tst-snapshot" size={30} fill="pink" />).asFragment()
+    expect(component).toMatchSnapshot()
+  })
 })
