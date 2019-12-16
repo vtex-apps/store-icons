@@ -92,6 +92,7 @@ Any icon can receive the following props:
 | Property        | Description                                | Type      | Default value |
 | --------------- | ------------------------------------------ | --------- | ------------- |
 | id              | The ID for the desired icon                | `String`  | ''            |
+| fill            | The desired icon color                     | `String`  | 'none'        |
 | size            | Desired size                               | `Number`  | 16            |
 | isActive        | desc                                       | `Boolean` | true          |
 | activeClassName | The className it should have if active     | `String`  | 🚫            |
