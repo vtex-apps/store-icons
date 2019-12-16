@@ -8,13 +8,14 @@ import './icon.global.css'
 const Icon = ({
   id,
   isActive,
+  fill,
   size,
   viewBox,
   activeClassName,
   mutedClassName,
 }: IconProps) => (
   <Svg
-    fill="none"
+    fill={fill || 'none'}
     width={size}
     height={size}
     viewBox={viewBox}
