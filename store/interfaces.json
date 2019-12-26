@@ -82,5 +82,8 @@
   },
   "icon-swap": {
     "component": "IconSwap"
+  },
+  "icon-bookmark": {
+    "component": "IconBookmark"
   }
 }

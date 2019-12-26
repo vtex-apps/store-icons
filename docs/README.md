@@ -145,6 +145,7 @@ Some components support modifiers. These are props that define the icon type, or
 | [IconSwap](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconSwap.js)             | `swap`        | 🚫                        | 🚫          | 🚫        | 🚫    |
 | [IconHeart](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconHeart.js)           | `heart`       | 🚫                        | 🚫          | 🚫        | 🚫    |
 | [IconGlobe](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconGlobe.js)           | `globe`       | 🚫                        | 🚫          | 🚫        | 🚫    |
+| [IconBookmark](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconBookmark.js)     | `bookmark`    | filled \| outline         | 🚫          | 🚫        | 🚫    |
 
 #### Navigation
 
