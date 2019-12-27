@@ -23,7 +23,7 @@ $('g').toArray().map(element => {
 })
 
 const BASELINE_PATH = path.join(__dirname, 'baseline.md')
-const ICONPACK_PATH = path.join(__dirname, '..', '..', 'ICONPACK.md')
+const ICONPACK_PATH = path.join(__dirname, '..', 'ICONPACK.md')
 
 fs.copyFile(BASELINE_PATH, ICONPACK_PATH, (err) => {
   if (err) throw err

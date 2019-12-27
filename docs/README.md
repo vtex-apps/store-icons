@@ -43,7 +43,7 @@ All Store icons components.
 
 ## Concept
 
-This project is based on [SVG fragment identifiers](https://css-tricks.com/svg-fragment-identifiers-work/). All store icons are served by Render SDK, and with HTML tag `<use>` we can render a fragment from our icon pack. If you want to know the complete list of fragment SVG's, [see here](https://github.com/vtex-apps/store-icons/blob/master/ICONPACK.md)
+This project is based on [SVG fragment identifiers](https://css-tricks.com/svg-fragment-identifiers-work/). All store icons are served by Render SDK, and with HTML tag `<use>` we can render a fragment from our icon pack. If you want to know the complete list of fragment SVG's, [see here](https://github.com/vtex-apps/store-icons/blob/master/docs/ICONPACK.md)
 
 ## Usage
 
@@ -166,7 +166,7 @@ In the [usage](#usage) section, we discuss two ways of using icons. These ways e
 
 ### Overwriting the default IconPack
 
-As mentioned before, all icon IDs are stored at the [iconpack.svg](https://github.com/vtex-apps/store-icons/blob/master/ICONPACK.md) file. You can overwrite the default one by:
+As mentioned before, all icon IDs are stored at the [iconpack.svg](https://github.com/vtex-apps/store-icons/blob/master/docs/ICONPACK.md) file. You can overwrite the default one by:
 
 1. On your [`store-theme`](https://github.com/vtex-apps/store-theme/tree/master/styles) create a new folder called `iconpacks`
 
