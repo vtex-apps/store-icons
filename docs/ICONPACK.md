@@ -77,6 +77,8 @@ We use a series of prefixes to help us understand what an specific icon means.
 | ![](docs/mpa-clone--outline.svg)  | mpa-clone--outline | 
 | ![](docs/mpa-clone--filled.svg)  | mpa-clone--filled | 
 | ![](docs/mpa-edit--outline.svg)  | mpa-edit--outline | 
+| ![](docs/mpa-bookmark--filled.svg)  | mpa-bookmark--filled | 
+| ![](docs/mpa-bookmark--outline.svg)  | mpa-bookmark--outline | 
 | ![](docs/mpa-edit--filled.svg)  | mpa-edit--filled | 
 | ![](docs/mpa-external-link--line.svg)  | mpa-external-link--line | 
 | ![](docs/mpa-external-link--outline.svg)  | mpa-external-link--outline | 
