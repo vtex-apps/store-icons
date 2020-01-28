@@ -53,9 +53,9 @@ const Icon = ({
       width={size}
       height={size}
       viewBox={viewBox}
-      className={`${isActive ? activeClassName : mutedClassName} ${
-        handles[handle]
-      }`}
+      className={`${
+        isActive ? activeClassName || '' : mutedClassName || ''
+      } ${handles[handle] || ''}`}
     >
       <Use id={id} />
     </Svg>
