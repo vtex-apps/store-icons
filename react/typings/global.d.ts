@@ -1,5 +1,6 @@
 interface IconProps {
   readonly id: string
+  readonly handle: string
   readonly isActive?: boolean
   readonly size?: number
   readonly viewBox?: string
