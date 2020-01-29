@@ -1,18 +1,10 @@
+📢 Use this project, [contribute](https://github.com/vtex-apps/store-icons) to it or open issues to help evolve it using [Store Discussion](https://github.com/vtex-apps/store-discussion).
+
 # Store Icons
 
 [![Build Status](https://travis-ci.org/vtex-apps/store-icons.svg?branch=master)](https://travis-ci.org/vtex-apps/store-icons)
 
-## Description
-
 All Store icons components.
-
-**Disclaimer:** Don't fork this project, use, contribute, or open issue with your feature request.
-
-## Release schedule
-
-| Release |       Status        | Initial Release | Maintenance LTS Start | End-of-life | Store Compatibility |
-| :-----: | :-----------------: | :-------------: | :-------------------: | :---------: | :-----------------: |
-|  [0.x]  | **Current Release** |   2019-01-30    |      -----------      | ----------  |         2.x         |
 
 ## Table of Contents
 
@@ -197,14 +189,36 @@ Where the `modifiers` follows the rule:
 
 `sti` **Status indicators** - Indicates the current item/component semantic status.
 
-## Troubleshooting
+## CSS Customization
 
-You can check if others are passing through similar issues [here](https://github.com/vtex-apps/store-icons/issues). Also feel free to [open issues](https://github.com/vtex-apps/store-icons/issues/new) or contribute with pull requests.
+In order to apply CSS customizations in this and other blocks, follow the instructions given in the recipe on [Using CSS Handles for store customization](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization).
 
-## Contributing
-
-Check it out [how to contribute](https://github.com/vtex-apps/awesome-io#contributing) with this project.
-
-## Tests
-
-To execute our tests go to `react/` folder and run `yarn test`
+| CSS Handles          |
+| -------------------- |
+| 'arrowBackIcon'      |
+| 'assistantSalesIcon' |
+| 'caretIcon'          |
+| 'cartIcon'           |
+| 'checkIcon'          |
+| 'closeIcon'          |
+| 'deleteIcon'         |
+| 'equalsIcon'         |
+| 'eyeSightIcon'       |
+| 'filterIcon'         |
+| 'globeIcon'          |
+| 'gridIcon'           |
+| 'heartIcon'          |
+| 'homeIcon'           |
+| 'inlineGridIcon'     |
+| 'locationInputIcon'  |
+| 'locationMarkerIcon' |
+| 'menuIcon'           |
+| 'minusIcon'          |
+| 'plusIcon'           |
+| 'profileIcon'        |
+| 'removeIcon'         |
+| 'searchIcon'         |
+| 'singleGridIcon'     |
+| 'socialIcon'         |
+| 'starIcon'           |
+| 'swapIcon'           |
