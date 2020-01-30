@@ -5,9 +5,7 @@ import Icon from './components/Icon'
 
 const IconCheck = ({ type, ...props }: EnhancedIconProps) => {
   const typeModifier = getType(type)
-  return <Icon id={`sti-check${typeModifier}`} {...props} />
+  return <Icon handle="checkIcon" id={`sti-check${typeModifier}`} {...props} />
 }
-
-
 
 export default IconCheck

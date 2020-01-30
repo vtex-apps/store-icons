@@ -13,7 +13,12 @@ const IconSocial = ({ network, size, background, shape, ...props }: Props) => {
 
   return (
     <span {...wrapperProps}>
-      <Icon id={`bnd-${network}`} size={reducedIconSize} {...props} />
+      <Icon
+        id={`bnd-${network}`}
+        handle="socialIcon"
+        size={reducedIconSize}
+        {...props}
+      />
     </span>
   )
 }

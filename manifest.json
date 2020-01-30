@@ -9,6 +9,9 @@
     "prereleasy": "yarn && node docs/script/scrap-svg.js",
     "postreleasy": "vtex publish --verbose"
   },
+  "dependencies": {
+    "vtex.css-handles": "0.x"
+  },
   "builders": {
     "react": "3.x",
     "styles": "1.x",
