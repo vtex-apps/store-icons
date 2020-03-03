@@ -1,8 +1,8 @@
 import React from 'react'
 import { useCssHandles } from 'vtex.css-handles'
 
-import Use from './Use'
 import Svg from './Svg'
+import Use from './Use'
 
 import './icon.global.css'
 
@@ -15,6 +15,7 @@ const CSS_HANDLES = [
   'closeIcon',
   'deleteIcon',
   'equalsIcon',
+  'expandIcon',
   'eyeSightIcon',
   'filterIcon',
   'globeIcon',
