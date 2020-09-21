@@ -33,6 +33,10 @@ const CSS_HANDLES = [
   'socialIcon',
   'starIcon',
   'swapIcon',
+  'playIcon',
+  'pauseIcon',
+  'volumeOnIcon',
+  'volumeOffIcon',
 ] as const
 
 const Icon = ({
@@ -52,9 +56,9 @@ const Icon = ({
       width={size}
       height={size}
       viewBox={viewBox}
-      className={`${
-        isActive ? activeClassName || '' : mutedClassName || ''
-      } ${handles[handle] || ''}`}
+      className={`${isActive ? activeClassName || '' : mutedClassName || ''} ${
+        handles[handle] || ''
+      }`}
     >
       <Use id={id} />
     </Svg>

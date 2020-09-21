@@ -88,5 +88,17 @@
   },
   "icon-expand": {
     "component": "IconExpand"
+  },
+  "icon-volume-on": {
+    "component": "IconVolumeOn"
+  },
+  "icon-volume-off": {
+    "component": "IconVolumeOff"
+  },
+  "icon-play": {
+    "component": ",IconPlay"
+  },
+  "icon-pause": {
+    "component": "IconPause"
   }
 }
