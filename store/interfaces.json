@@ -96,7 +96,7 @@
     "component": "IconVolumeOff"
   },
   "icon-play": {
-    "component": ",IconPlay"
+    "component": "IconPlay"
   },
   "icon-pause": {
     "component": "IconPause"
