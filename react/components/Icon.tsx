@@ -4,8 +4,6 @@ import { useCssHandles } from 'vtex.css-handles'
 import Svg from './Svg'
 import Use from './Use'
 
-import './icon.global.css'
-
 const CSS_HANDLES = [
   'arrowBackIcon',
   'assistantSalesIcon',
