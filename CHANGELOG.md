@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+- Icon Play, Icon Pause, Icon Volume On and Icon Volume Off.
+
 ## [0.17.1] - 2020-09-23
 ### Changed
 - Inline loading icon animation, prevent from loading global CSS files for icons.

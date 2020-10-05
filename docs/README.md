@@ -1,6 +1,9 @@
 📢 Use this project, [contribute](https://github.com/vtex-apps/store-icons) to it or open issues to help evolve it using [Store Discussion](https://github.com/vtex-apps/store-discussion).
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # Store Icons
@@ -59,7 +62,7 @@ Import the desired icon and use it into your code, for example:
 ```js
 import { IconMenu } from 'vtex.store-icons'
 
-const YourComponent = props => <IconMenu />
+const YourComponent = (props) => <IconMenu />
 ```
 
 You can see [here](#icon-list) a list of every available icon.
@@ -73,7 +76,7 @@ For example:
 ```js
 import { Icon } from 'vtex.store-icons'
 
-const YourComponent = props => <Icon id="hpa-cart" />
+const YourComponent = (props) => <Icon id="hpa-cart" />
 ```
 
 ⚠️ This component is meant to be used on icons there aren't common throughout the store. Choose [`dedicated`](#dedicated-icon) components whenever possible.
@@ -141,6 +144,8 @@ Some components support modifiers. These are props that define the icon type, or
 | [IconHeart](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconHeart.js)           | `heart`       | 🚫                        | 🚫          | 🚫        | 🚫    |
 | [IconGlobe](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconGlobe.js)           | `globe`       | 🚫                        | 🚫          | 🚫        | 🚫    |
 | [IconBookmark](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconBookmark.js)     | `bookmark`    | filled \| outline         | 🚫          | 🚫        | 🚫    |
+| [IconPlay](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconPlay.js)             | `play`        | filled \| outline         | 🚫          | 🚫        | 🚫    |
+| [IconPause](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconPause.js)           | `pause`       | filled \| outline         | 🚫          | 🚫        | 🚫    |
 
 #### Navigation
 
@@ -150,10 +155,12 @@ Some components support modifiers. These are props that define the icon type, or
 
 #### Status Indicators
 
-| Component                                                                                  | id      | Type                      | Orientation | State | Shape |
-| ------------------------------------------------------------------------------------------ | ------- | ------------------------- | ----------- | ----- | ----- |
-| [IconClose](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconClose.js) | `close` | filled \| outline         | 🚫          | 🚫    | 🚫    |
-| [IconCheck](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconCheck.js) | `check` | filled \| outline \| line | 🚫          | 🚫    | 🚫    |
+| Component                                                                                          | id           | Type                      | Orientation | State | Shape |
+| -------------------------------------------------------------------------------------------------- | ------------ | ------------------------- | ----------- | ----- | ----- |
+| [IconClose](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconClose.js)         | `close`      | filled \| outline         | 🚫          | 🚫    | 🚫    |
+| [IconCheck](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconCheck.js)         | `check`      | filled \| outline \| line | 🚫          | 🚫    | 🚫    |
+| [IconVolumeOn](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconVolumeOn.js)   | `volume-on`  | filled \| outline \| line | 🚫          | 🚫    | 🚫    |
+| [IconVolumeOff](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconVolumeOff.js) | `volume-off` | filled \| outline \| line | 🚫          | 🚫    | 🚫    |
 
 ## Customize
 
@@ -225,6 +232,11 @@ In order to apply CSS customizations in this and other blocks, follow the instru
 | 'socialIcon'         |
 | 'starIcon'           |
 | 'swapIcon'           |
+| 'playIcon'           |
+| 'pauseIcon'          |
+| 'fullscreenIcon'     |
+| 'volumeOnIcon'       |
+| 'volumeOffIcon'      |
 
 ## Contributors ✨
 
@@ -235,6 +247,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
