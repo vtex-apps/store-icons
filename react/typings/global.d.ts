@@ -3,6 +3,8 @@ interface IconProps {
   readonly handle: string
   readonly isActive?: boolean
   readonly size?: number
+  readonly width?: number
+  readonly height?: number
   readonly viewBox?: string
   readonly activeClassName?: string
   readonly mutedClassName?: string

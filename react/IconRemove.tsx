@@ -3,7 +3,7 @@ import React from 'react'
 import Icon from './components/Icon'
 
 const IconRemove = (props: IconProps) => {
-  return <Icon id="mpa-remove" handle="removeIcon" {...props} />
+  return <Icon {...props} id="mpa-remove" handle="removeIcon"  />
 }
 
 export default IconRemove

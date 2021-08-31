@@ -44,18 +44,22 @@ const Icon = ({
   handle,
   isActive,
   size,
+  height,
+  width,
   viewBox,
   activeClassName,
   mutedClassName,
 }: IconProps) => {
-  const handles = useCssHandles(CSS_HANDLES)
+  const {handles} = useCssHandles(CSS_HANDLES)
+
+  const useCustomSize = height && width;
 
   return (
     <Svg
       fill="none"
-      width={size}
-      height={size}
-      viewBox={viewBox}
+      width={useCustomSize ? width : size}
+      height={useCustomSize ? height : size}
+      viewBox={ useCustomSize ? `0 0 ${width} ${height}`  : viewBox}
       className={`${isActive ? activeClassName || '' : mutedClassName || ''} ${
         handles[handle] || ''
       }`}

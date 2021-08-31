@@ -3,7 +3,7 @@ import React from 'react'
 import Icon from './components/Icon'
 
 const IconMinus = (props: IconProps) => {
-  return <Icon id="nav-minus" handle="minusIcon" {...props} />
+  return <Icon {...props}  id="nav-minus" handle="minusIcon"/>
 }
 
 export default IconMinus

@@ -3,7 +3,7 @@ import React from 'react'
 import Icon from './components/Icon'
 
 const IconProfile = (props: IconProps) => {
-  return <Icon id="hpa-profile" handle="profileIcon" {...props} />
+  return <Icon {...props}  id="hpa-profile" handle="profileIcon"/>
 }
 
 export default IconProfile
