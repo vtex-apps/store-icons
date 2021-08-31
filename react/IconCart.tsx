@@ -3,7 +3,7 @@ import React from 'react'
 import Icon from './components/Icon'
 
 const IconCart = (props: IconProps) => {
-  return <Icon id="hpa-cart" handle="cartIcon" {...props} />
+  return <Icon  {...props} id="hpa-cart" handle="cartIcon"/>
 }
 
 export default IconCart

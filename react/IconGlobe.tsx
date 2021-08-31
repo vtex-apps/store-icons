@@ -3,7 +3,7 @@ import React from 'react'
 import Icon from './components/Icon'
 
 const IconGlobe = (props: IconProps) => {
-  return <Icon id="mpa-globe" handle="globeIcon" {...props} />
+  return <Icon {...props} id="mpa-globe" handle="globeIcon" />
 }
 
 export default IconGlobe

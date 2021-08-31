@@ -3,7 +3,7 @@ import React from 'react'
 import Icon from './components/Icon'
 
 const IconExpand = (props: IconProps) => {
-  return <Icon id="mpa-expand" handle="expandIcon" {...props} />
+  return <Icon  {...props} id="mpa-expand" handle="expandIcon" />
 }
 
 export default IconExpand

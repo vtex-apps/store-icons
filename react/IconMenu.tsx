@@ -3,7 +3,7 @@ import React from 'react'
 import Icon from './components/Icon'
 
 const IconMenu = (props: IconProps) => {
-  return <Icon id="hpa-hamburguer-menu" handle="menuIcon" {...props} />
+  return <Icon  {...props} id="hpa-hamburguer-menu" handle="menuIcon" />
 }
 
 export default IconMenu
