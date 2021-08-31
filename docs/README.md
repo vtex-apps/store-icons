@@ -90,7 +90,9 @@ Any icon can receive the following props:
 | Property        | Description                                | Type      | Default value |
 | --------------- | ------------------------------------------ | --------- | ------------- |
 | id              | The ID for the desired icon                | `String`  | ''            |
-| size            | Desired size                               | `Number`  | 16            |
+| size            | Desired size (this prop has no effect when `width` and `height` prop are set) | `Number`  | 16            |
+| width           | Desired width of icon                      | `Number`  | 🚫            |
+| height          | Desired size                               | `Number`  | 🚫            |
 | isActive        | desc                                       | `Boolean` | true          |
 | activeClassName | The className it should have if active     | `String`  | 🚫            |
 | mutedClassName  | The className it should have if not active | `String`  | 🚫            |
