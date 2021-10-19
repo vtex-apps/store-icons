@@ -3,7 +3,7 @@ import React from 'react'
 import Icon from './components/Icon'
 
 const IconGrid = (props: IconProps) => {
-  return <Icon id="mpa-gallery" handle="gridIcon" {...props} />
+  return <Icon {...props} id="mpa-gallery" handle="gridIcon"   />
 }
 
 export default IconGrid

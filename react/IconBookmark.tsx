@@ -5,7 +5,7 @@ import { getType } from './utils/helpers'
 
 const IconBoomark = ({ type = 'outline', ...props }: EnhancedIconProps) => {
   const typeModifier = getType(type, 'filled, outline')
-  return <Icon id={`mpa-bookmark${typeModifier}`} {...props} />
+  return <Icon {...props} id={`mpa-bookmark${typeModifier}`}   />
 }
 
 export default IconBoomark

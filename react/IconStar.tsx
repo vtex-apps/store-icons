@@ -3,7 +3,7 @@ import React from 'react'
 import Icon from './components/Icon'
 
 const IconStar = (props: IconProps) => {
-  return <Icon id="inf-star" handle="starIcon" {...props} />
+  return <Icon  {...props}  id="inf-star" handle="starIcon"/>
 }
 
 export default IconStar

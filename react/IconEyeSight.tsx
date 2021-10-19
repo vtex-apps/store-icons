@@ -8,9 +8,10 @@ const IconEyeSight = ({ type, state, ...props }: EnhancedIconProps) => {
   const stateModifier = getState(state)
   return (
     <Icon
+      {...props}
       id={`mpa-eyesight${typeModifier}${stateModifier}`}
       handle="eyeSightIcon"
-      {...props}
+       
     />
   )
 }
