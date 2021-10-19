@@ -58,7 +58,7 @@ const Icon = ({
       height={size}
       viewBox={viewBox}
       className={`${isActive ? activeClassName || '' : mutedClassName || ''} ${
-        handles[handle] || handles['icon'] `${handles['icon']}--${id}`
+        handles[handle] || handles['icon']
       }`}
     >
       <Use id={id} />
