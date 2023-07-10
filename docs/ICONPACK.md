@@ -2,14 +2,14 @@
 
   Here we describe all our SVG fragment identifiers. 
   
- :loudspeaker: **Disclaimer:** The `svg/` folder is just to render the icons in this MD.
+ >⚠️ The `svg/` folder is just to render the icons in this MD.
 
 
-### How to use this fragments? 
+## Usage
 
-First of all, you should add the `vtex.store-icons` to your dependencies in `manifest.json`. 
+Add the `vtex.store-icons` to your dependencies in `manifest.json`. 
 
-This an example that show you how to use it. 
+This an example that shows you how to use it. 
 
 ```javascript
   import React from 'react'
@@ -38,9 +38,9 @@ This an example that show you how to use it.
 
 
  
-### SVG Prefixes 
+## SVG Prefixes 
 
-We use a series of prefixes to help us understand what an specific icon means. 
+The following prefixes help to understand what a specific icon means. 
 
 * bnd - Brand;
 * hpa - High Priority Actions;
@@ -54,23 +54,23 @@ We use a series of prefixes to help us understand what an specific icon means.
 
 | Icon                                    | ID                         |
 | --------------------------------------- | -------------------------- |
-| ![](./bnd-logo.svg)  | bnd-logo | 
-| ![](./mpa-expand.svg)  | mpa-expand | 
-| ![](./hpa-arrow-back.svg)  | hpa-arrow-back | 
-| ![](./hpa-arrow-from-bottom.svg)  | hpa-arrow-from-bottom | 
-| ![](./hpa-arrow-to-bottom.svg)  | hpa-arrow-to-bottom | 
-| ![](./hpa-calendar.svg)  | hpa-calendar | 
-| ![](./hpa-cart.svg)  | hpa-cart | 
-| ![](./hpa-delete.svg)  | hpa-delete | 
-| ![](./hpa-hamburguer-menu.svg)  | hpa-hamburguer-menu | 
-| ![](./hpa-location-marker.svg)  | hpa-location-marker | 
-| ![](./hpa-play.svg)  | hpa-play | 
-| ![](./hpa-profile.svg)  | hpa-profile | 
-| ![](./hpa-save.svg)  | hpa-save | 
-| ![](./hpa-search.svg)  | hpa-search | 
-| ![](./hpa-telemarketing.svg)  | hpa-telemarketing | 
-| ![](./inf-help--filled.svg)  | inf-help--filled | 
-| ![](./inf-help--outline.svg)  | inf-help--outline | 
+| ![bnd-logo](https://raw.githubusercontent.com/vtex-apps/store-icons/bb60df29809a4edbc13b3e0febd6a3d9eb996ab4/docs/bnd-logo.svg)  | bnd-logo | 
+| ![mpa-expand](https://raw.githubusercontent.com/vtex-apps/store-icons/bb60df29809a4edbc13b3e0febd6a3d9eb996ab4/docs/mpa-expand.svg)  | mpa-expand | 
+| ![hpa-arrow-back](https://raw.githubusercontent.com/vtex-apps/store-icons/bb60df29809a4edbc13b3e0febd6a3d9eb996ab4/docs/hpa-arrow-back.svg)  | hpa-arrow-back | 
+| ![hpa-arrow-from-bottom](https://raw.githubusercontent.com/vtex-apps/store-icons/bb60df29809a4edbc13b3e0febd6a3d9eb996ab4/docs/hpa-arrow-from-bottom.svg)  | hpa-arrow-from-bottom | 
+| ![hpa-arrow-to-bottom](https://raw.githubusercontent.com/vtex-apps/store-icons/bb60df29809a4edbc13b3e0febd6a3d9eb996ab4/docs/hpa-arrow-to-bottom.svg)  | hpa-arrow-to-bottom | 
+| ![hpa-calendar](https://raw.githubusercontent.com/vtex-apps/store-icons/bb60df29809a4edbc13b3e0febd6a3d9eb996ab4/docs/hpa-calendar.svg)  | hpa-calendar | 
+| ![hpa-cart](https://raw.githubusercontent.com/vtex-apps/store-icons/bb60df29809a4edbc13b3e0febd6a3d9eb996ab4/docs/hpa-cart.svg)  | hpa-cart | 
+| ![hpa-delete](https://raw.githubusercontent.com/vtex-apps/store-icons/bb60df29809a4edbc13b3e0febd6a3d9eb996ab4/docs/hpa-delete.svg)  | hpa-delete | 
+| ![hpa-hamburguer-menu](https://raw.githubusercontent.com/vtex-apps/store-icons/bb60df29809a4edbc13b3e0febd6a3d9eb996ab4/docs/hpa-hamburguer-menu.svg)  | hpa-hamburguer-menu | 
+| ![hpa-location-marker](https://raw.githubusercontent.com/vtex-apps/store-icons/bb60df29809a4edbc13b3e0febd6a3d9eb996ab4/docs/hpa-location-marker.svg)  | hpa-location-marker | 
+| ![hpa-play](https://github.com/vtex-apps/store-icons/blob/bb60df29809a4edbc13b3e0febd6a3d9eb996ab4/docs/hpa-play.svg)  | hpa-play | 
+| ![hpa-profile](https://github.com/vtex-apps/store-icons/blob/bb60df29809a4edbc13b3e0febd6a3d9eb996ab4/docs/hpa-profile.svg)  | hpa-profile | 
+| ![hpa-save](https://raw.githubusercontent.com/vtex-apps/store-icons/bb60df29809a4edbc13b3e0febd6a3d9eb996ab4/docs/hpa-save.svg)  | hpa-save | 
+| ![hpa-search](https://raw.githubusercontent.com/vtex-apps/store-icons/bb60df29809a4edbc13b3e0febd6a3d9eb996ab4/docs/hpa-search.svg)  | hpa-search | 
+| ![hpa-telemarketing](https://raw.githubusercontent.com/vtex-apps/store-icons/bb60df29809a4edbc13b3e0febd6a3d9eb996ab4/docs/hpa-telemarketing.svg)  | hpa-telemarketing | 
+| ![info-help-filled](https://raw.githubusercontent.com/vtex-apps/store-icons/bb60df29809a4edbc13b3e0febd6a3d9eb996ab4/docs/inf-help--filled.svg)  | inf-help--filled | 
+| ![info-help-outline](https://raw.githubusercontent.com/vtex-apps/store-icons/bb60df29809a4edbc13b3e0febd6a3d9eb996ab4/docs/inf-help--outline.svg)  | inf-help--outline | 
 | ![](./inf-star.svg)  | inf-star | 
 | ![](./inf-tooltip--filled.svg)  | inf-tooltip--filled | 
 | ![](./inf-tooltip--outline.svg)  | inf-tooltip--outline | 
