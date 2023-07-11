@@ -1,8 +1,6 @@
- ## Icon Pack list
+# Icon Pack list
 
   Here we describe all our SVG fragment identifiers. 
-  
- >⚠️ The `svg/` folder is just to render the icons in this MD.
 
 
 ## Usage
