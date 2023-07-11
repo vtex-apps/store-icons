@@ -10,8 +10,10 @@
 
 [![Build Status](https://travis-ci.org/vtex-apps/store-icons.svg?branch=master)](https://travis-ci.org/vtex-apps/store-icons)
 
-All Store icons components.
+Store Icons are sets of icons tailored for store UI. 
+The Store Icons are implemented using SVG fragment identifiers, which reference specific portions or elements within an SVG document. By leveraging SVG fragment identifiers, it becomes easier to link directly to and highlight particular sections or areas within the SVG document, facilitating navigation and interaction.
 
+Render SDK serves all store icons, and with the HTML tag `<use>`, you can render a fragment from the icon pack. For more information on the complete list of fragment SVG's, access the [Icon Pack List](https://developers.vtex.com/docs/apps/vtex.store-icons/iconpack)
 ## Table of Contents
 
 - [Store Icons](#store-icons)
@@ -39,21 +41,23 @@ All Store icons components.
   - [Contributing](#contributing)
   - [Tests](#tests)
 
-## Concept
-
-This project is based on [SVG fragment identifiers](https://css-tricks.com/svg-fragment-identifiers-work/). All store icons are served by Render SDK, and with HTML tag `<use>` we can render a fragment from our icon pack. If you want to know the complete list of fragment SVG's, [see here](https://github.com/vtex-apps/store-icons/blob/master/docs/ICONPACK.md)
 
 ## Usage
 
-First of all, add into the dependencies of your `manifest.json` and use it as an npm module:
+Add into the dependencies of your `manifest.json` and use it as an `npm` module:
 
 ```json
 "dependencies": {
   "vtex.store-icons": "0.x"
 }
 ```
+There are two ways for using the available icons:
 
-There are two different ways to use the icons available here. If you're developing a store's theme, you should use the `icon` block for the icon you want to render, which behaves just like any other block and expects to receive the props exposed by its [API](#props). But if you're developing custom components and want to use icons defined here, just follow the instructions below.
+- **Developing a store's theme:**
+Use the `icon` block to render the desired icon. This block functions similarly to other blocks and anticipates the receipt of props as specified by its associated [API](#props).
+
+- **Creating custom components:**
+if you are creating custom components and wish to utilize the icons provided here, please follow the instructions below.
 
 ### Dedicated Icon
 
@@ -250,4 +254,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome!
