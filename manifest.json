@@ -1,7 +1,7 @@
 {
   "name": "store-icons",
   "vendor": "vtex",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "title": "VTEX Store icons",
   "description": "All icons that store apps use.",
   "mustUpdateAt": "2020-01-30",

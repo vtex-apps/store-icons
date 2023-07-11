@@ -1,6 +1,6 @@
 {
   "name": "vtex.store-icons",
-  "version": "0.18.0",
+  "version": "0.18.1",
   "description": "React components that encapsules store icons",
   "scripts": {
     "pretest": "yarn",

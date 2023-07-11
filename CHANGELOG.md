@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.18.1] - 2023-07-11
+
 ### Fixed
 - Broken links, Icons' images, and introduction consistency.
 
