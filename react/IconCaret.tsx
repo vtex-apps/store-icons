@@ -9,7 +9,7 @@ const IconCaret = ({ orientation, thin = false, ...props }: CaretProps) => {
     [`nav-thin-caret${orientationModifier}`]: thin,
     [`nav-caret${orientationModifier}`]: !thin,
   })
-  return <Icon id={id} handle="caretIcon" {...props} />
+  return <Icon {...props} id={id} handle="caretIcon"   />
 }
 
 export default IconCaret

@@ -5,7 +5,7 @@ import { getType } from './utils/helpers'
 
 const IconClose = ({ type = 'filled', ...props }: EnhancedIconProps) => {
   const typeModifier = getType(type)
-  return <Icon handle="closeIcon" id={`sti-close${typeModifier}`} {...props} />
+  return <Icon {...props} handle="closeIcon" id={`sti-close${typeModifier}`}   />
 }
 
 export default IconClose

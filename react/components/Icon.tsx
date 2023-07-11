@@ -37,6 +37,7 @@ const CSS_HANDLES = [
   'pauseIcon',
   'volumeOnIcon',
   'volumeOffIcon',
+  'icon'
 ] as const
 
 const Icon = ({
@@ -57,7 +58,7 @@ const Icon = ({
       height={size}
       viewBox={viewBox}
       className={`${isActive ? activeClassName || '' : mutedClassName || ''} ${
-        handles[handle] || ''
+        handles[handle] || handles['icon']
       }`}
     >
       <Use id={id} />
