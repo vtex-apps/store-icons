@@ -1,13 +1,12 @@
 # Icon Pack list
 
-  Here we describe all our SVG fragment identifiers. 
-
+Check out the available icons to use in your store described in [Store Icon](https://developers.vtex.com/docs/apps/vtex.store-icons) guide.
 
 ## Usage
 
 Add the `vtex.store-icons` to your dependencies in `manifest.json`. 
 
-This an example that shows you how to use it. 
+This is an example that shows you how to use it: 
 
 ```javascript
   import React from 'react'
@@ -40,14 +39,16 @@ This an example that shows you how to use it.
 
 The following prefixes help to understand what a specific icon means. 
 
-* bnd - Brand;
-* hpa - High Priority Actions;
-* mpa - Midle Priority Actions;
-* sti - Status Indicator;
-* inf - Informative;
-* nav - Navigation
-  
+| Prefix | Meaning |
+| ------ | ------- |
+|  bnd   | Brand                  |
+|  hpa   | High Priority Actions  |
+|  mpa   | Midle Priority Actions |
+|  sti   | Status Indicator       |
+|  inf   | Informative            |
+|   nav  | Navigation             |
 
+  
 ### SVG Fragments
 
 | Icon                                    | ID                         |
