@@ -10,7 +10,7 @@ interface Props extends EnhancedIconProps {
 
 const IconSocial = ({ network, size, background, shape, ...props }: Props) => {
   const { wrapperProps, reducedIconSize } = getShape(size!, background, shape)
-
+  // @ts-ignore
   return (
     <span {...wrapperProps}>
       <Icon
