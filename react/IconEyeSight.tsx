@@ -6,6 +6,7 @@ import { getType, getState } from './utils/helpers'
 const IconEyeSight = ({ type, state, ...props }: EnhancedIconProps) => {
   const typeModifier = getType(type, 'filled, outline')
   const stateModifier = getState(state)
+  // @ts-ignore
   return (
     <Icon
       id={`mpa-eyesight${typeModifier}${stateModifier}`}
