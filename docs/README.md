@@ -11,7 +11,7 @@
 [![Build Status](https://travis-ci.org/vtex-apps/store-icons.svg?branch=master)](https://travis-ci.org/vtex-apps/store-icons)
 
 Store Icons are sets of tailored icons for store UI. 
-The Store Icons are implemented using SVG fragment identifiers, which reference specific portions or elements within an SVG document. Leveraging SVG fragment identifiers makes linking directly to and highlighting particular sections or areas within the SVG document easier, facilitating navigation and interaction.
+They are created using SVG fragment identifiers referencing specific parts or elements within an SVG document. This use of SVG fragment identifiers simplifies the process of linking to and emphasizing specific sections or areas within the SVG document, enhancing navigation and interaction.
 
 Render SDK serves all store icons, and with the HTML tag `<use>`, you can render a fragment from the icon pack. For more information on the complete list of fragment SVG's, access the [Icon Pack List](https://developers.vtex.com/docs/apps/vtex.store-icons/iconpack).
 
