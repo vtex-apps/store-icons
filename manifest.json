@@ -10,7 +10,7 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
-    "vtex.css-handles": "0.x"
+    "vtex.css-handles": "1.x"
   },
   "builders": {
     "react": "3.x",
