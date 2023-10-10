@@ -162,7 +162,7 @@ Some components support modifiers. These are props that define the icon type, or
 
 | Component                                                                                          | id           | Type                      | Orientation | State | Shape |
 | -------------------------------------------------------------------------------------------------- | ------------ | ------------------------- | ----------- | ----- | ----- |
-| [IconClose](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconClose.js)         | `close`      | filled \| outline         | 🚫          | 🚫    | 🚫    |
+| [IconClose](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconClose.js)         | `close`      | filled \| outline \| line | 🚫          | 🚫    | 🚫    |
 | [IconCheck](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconCheck.js)         | `check`      | filled \| outline \| line | 🚫          | 🚫    | 🚫    |
 | [IconVolumeOn](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconVolumeOn.js)   | `volume-on`  | filled \| outline \| line | 🚫          | 🚫    | 🚫    |
 | [IconVolumeOff](https://github.com/vtex-apps/store-icons/blob/feature/docs/react/IconVolumeOff.js) | `volume-off` | filled \| outline \| line | 🚫          | 🚫    | 🚫    |
