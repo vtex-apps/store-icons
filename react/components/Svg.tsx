@@ -9,6 +9,9 @@ interface Props {
   readonly xmlns?: string
   readonly xmlnsXlink?: string
   readonly children?: ReactNode
+  readonly role?: string
+  readonly 'aria-hidden'?: 'true' | 'false'
+  readonly 'aria-label'?: string
 }
 
 const Svg = ({ children, ...props }: Props) => <svg {...props}>{children}</svg>
