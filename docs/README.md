@@ -99,6 +99,7 @@ Any icon can receive the following props:
 | isActive        | desc                                       | `Boolean` | true          |
 | activeClassName | The className it should have if active     | `String`  | 🚫            |
 | mutedClassName  | The className it should have if not active | `String`  | 🚫            |
+| iconAriaLabel   | Accessible label for informative icons. If provided, the icon is exposed to assistive technology with `role="img"`. If omitted, the icon is treated as decorative (`aria-hidden="true"`). | `String`  | 🚫            |
 
 Obs: **...props**: It is important to notice that any other `<svg>` prop passed will work with an icon as well.
 

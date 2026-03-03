@@ -47,11 +47,19 @@ const Icon = ({
   viewBox,
   activeClassName,
   mutedClassName,
-  iconType = 'decorative',
-  ariaLabel,
+  iconAriaLabel,
 }: IconProps) => {
   const handles = useCssHandles(CSS_HANDLES)
-  const isDecorative = iconType === 'decorative'
+
+  const ariaProps = iconAriaLabel
+    ? {
+        'aria-label': iconAriaLabel,
+        'aria-hidden': 'false' as const,
+        role: 'img',
+      }
+    : {
+        'aria-hidden': 'true' as const,
+      }
 
   return (
     <Svg
@@ -62,9 +70,7 @@ const Icon = ({
       className={`${isActive ? activeClassName || '' : mutedClassName || ''} ${
         handles[handle] || ''
       }`}
-      aria-hidden={isDecorative ? 'true' : 'false'}
-      role={isDecorative ? undefined : 'img'}
-      aria-label={isDecorative ? undefined : ariaLabel}
+      {...ariaProps}
     >
       <Use id={id} />
     </Svg>
