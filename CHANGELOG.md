@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- `aria-hidden="true"` to all icon components.
+
+### Fixed
+
+- build and lint errors
+
 ### Changed
 
 - Update GitHub actions/cache to v4 

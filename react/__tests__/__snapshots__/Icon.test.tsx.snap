@@ -3,6 +3,7 @@
 exports[`Icon should match snapshot 1`] = `
 <DocumentFragment>
   <svg
+    aria-hidden="true"
     class=" "
     fill="none"
     height="20"

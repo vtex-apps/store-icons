@@ -6,6 +6,7 @@ interface IconProps {
   readonly viewBox?: string
   readonly activeClassName?: string
   readonly mutedClassName?: string
+  readonly iconAriaLabel?: string
 }
 
 interface EnhancedIconProps extends IconProps {

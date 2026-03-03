@@ -77,7 +77,7 @@ export const getShape = (
   supported?: string
 ) => {
   const REDUCTION_PERCENTAGE = 0.4
-  const getReduction = (size: number) => size * REDUCTION_PERCENTAGE
+  const getReduction = (value: number) => value * REDUCTION_PERCENTAGE
   const modifiers = getEnhancement(SHAPES, shape, supported)
   const reduction = getReduction(size)
   const padding = reduction / 2

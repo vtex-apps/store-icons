@@ -1,3 +1,5 @@
 export function useCssHandles() {
-  return { handle: 'handle' }
+  return new Proxy({}, {
+    get: () => '',
+  })
 }
