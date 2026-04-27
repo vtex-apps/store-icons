@@ -1,6 +1,6 @@
 # Icon Pack list
 
-Check out the available icons for your store in the [Store Icon](https://developers.vtex.com/docs/apps/vtex.store-icons) guide.
+See the available store icons in the [Store Icon](https://developers.vtex.com/docs/apps/vtex.store-icons) guide.
 
 ## Usage
 
